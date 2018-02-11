@@ -1,0 +1,81 @@
+---
+layout: null
+title: Kimai - Open Source Time-Tracking
+description: Kimai - free and easy time-tracking for freelancer and agencies. Kimai is web-based and runs on PHP.
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
+<!DOCTYPE HTML>
+<html>
+	<head>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
+
+		<div id="wrapper" class="fade-in">
+
+			{% include header-link.html %}
+
+			<nav id="nav">
+				{% include nav.html %}
+				<ul class="icons">
+					{% include social.html %}
+				</ul>
+			</nav>
+
+			<div id="main">
+				<article class="post">
+					<header class="major">
+						<h1><a href="#">Kimai - time-tracking for everyone</a></h1>
+						<p>
+						Kimai is a free open source timetracker. It tracks work time and prints out a summary of your activities on demand.
+						Yearly, monthly, daily, by customer, by project, by action …
+						It’s simplicity is its strength. Due to Kimai’s web browser based interface it runs cross-platform.
+						</p>
+					</header>
+
+					<a href="#" class="image main"><img src="{{ '/images/dashboard.png' | absolute_url }}" alt="" /></a>
+
+					<div class="box alt">
+						<div class="row 50% uniform">
+							<div class="4u"><span class="image fit"><img src="{{ '/images/dashboard.png' | absolute_url }}" alt=""></span></div>
+							<div class="4u"><span class="image fit"><img src="{{ '/images/invoices.png' | absolute_url }}" alt=""></span></div>
+							<div class="4u$"><span class="image fit"><img src="{{ '/images/time-tracking.png' | absolute_url }}" alt=""></span></div>
+						</div>
+					</div>
+
+					<blockquote>
+						While there are many programs one can use for time and project tracking, they tend to be overkill for my rather simple needs.
+						Kimai came about because I was tired to feed lame boring excel tables …
+					</blockquote>
+
+					<p>
+						Kimai does not have to run while recording, you can even quit your browser.
+						Your time is still recording until you stop it from any web browser that has access to your installation.
+						It is designed to hold lots of users, but you can also use it for a single user if you want to.
+					</p>
+					<p>
+						Kimai can be localized to any language, though we only ship three sets of languages files in the new version for now: English, German and Russian.
+						Feel free to send your self-made language files – we’re looking for translators and would appreciate your support!
+					</p>
+					<p>
+						And if want to know what others have to say about us, check out <a href="/testimonials/">the testimonials</a>.
+					</p>
+				</article>
+
+				{% include posts.html limit=4 %}
+
+				{% include bottom-links.html %}
+
+			</div>
+
+        	{% include footer.html %}
+
+		</div>
+
+		{% include scripts-main.html %}
+		{% include tracking.html %}
+	</body>
+</html>

@@ -1,0 +1,10 @@
+# Kimai's awesome website.
+
+Directory structure:
+
+- **_includes** and **_layouts** contain the HTML structure of the page
+- **_posts** contains all blog posts
+- **assets** contains all the nifty frontend stuff - SASS, CSS, Javascript, Font and Icon files
+- **images** contains ONLY images used in the content
+
+For more info read the [Jekyll documentation](http://jekyllrb.com/).

@@ -1,0 +1,72 @@
+# Site
+title:              Kimai Time-Tracking
+bio:                'Jekyll version of the Massively theme by HTML5UP'
+description:        "Jekyll version of the Massively theme by HTML5UP"
+locale:             en_US
+baseurl:            "" # the subpath of your site, e.g. /blog
+url:                "" # the base hostname & protocol for your site
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:year/:title/"
+    layout: post
+    author:
+
+# Jekyll
+permalink:          /blog/:year/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         assets/sass
+  style:            compressed
+
+# Comments
+disqus_shortname:   default
+
+# personal
+location:           Berlin, Germany
+phone:              not available
+email:              info@keleo.de
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+# Kimai exclusive
+permalink: /blog/:year/:title/
+name: Kimai Time-Tracking
+download_url: /download/
+
+kimai_v2_repo: https://github.com/kevinpapst/kimai2
+kimai_v2_docu: /tree/master/var/docs
+kimai_v2_latest: /archive/0.1.zip
+
+repo_url: https://github.com/kimai/kimai
+docu_url: http://www.kimai.org/documentation/
+issues_url: https://github.com/kimai/kimai/issues
+stable_url: https://github.com/kimai/kimai/releases/download/1.1.0/kimai_1.1.0.zip
+forum_url: http://forum.kimai.org/

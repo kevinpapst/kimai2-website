@@ -1,0 +1,68 @@
+---
+permalink: /blog/
+redirect_from: /en/blog/
+author: all
+---
+<!DOCTYPE HTML>
+<html>
+	<head>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
+
+		<div id="wrapper" class="fade-in">
+
+			{% include header-link.html %}
+
+			<nav id="nav">
+				{% include nav.html %}
+				<ul class="icons">
+					{% include social.html %}
+				</ul>
+			</nav>
+
+			<div id="main">
+				<article class="post">
+					<header class="major">
+						<h1><a href="#">Kimai Blog</a></h1>
+						<p>
+							The news section for your beloved time-tracking app Kimai
+						</p>
+					</header>
+					<p>
+						Fellow reader and Kimai user, we know that we need to add new blog entries way more frequently.
+						We just love programming so much - we sometimes forget about your wish to read
+						about the latest features we added to Kimai.
+						We'll try to provide more content from now on, we can't promise that it will work ... but we try ;-)
+					</p>
+					<p>
+						Tip: Subscribe to our <a href="{{ site.kimai_v2_repo }}/releases.atom">release feed</a> and you will never miss a new version!
+					</p>
+				</article>
+
+				{% include posts.html limit=4 %}
+
+				<section>
+					<table class="post-list">
+					<h2>Older Posts</h2>
+					{% for post in site.posts %}
+						{% if forloop.index > 4 %}
+						<tr>
+							<td><a href='{{ post.url }}'>{{ post.title }}</a></td>
+							<td class="post-date">{{ post.date | date_to_string }}</td>
+						</tr>
+						{% endif %}
+					{% endfor %}
+					</table>
+				</section>
+
+			</div>
+
+			{% include footer.html %}
+
+		</div>
+
+		{% include scripts-main.html %}
+		{% include tracking.html %}
+	</body>
+</html>

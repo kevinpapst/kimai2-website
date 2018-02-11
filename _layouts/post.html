@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
+
+		<div id="wrapper" class="fade-in">
+
+			{% include header-link.html %}
+
+			<nav id="nav">
+				{% include nav.html %}
+				<ul class="icons">
+					{% include social.html %}
+				</ul>
+			</nav>
+
+			<div id="main">
+				<section class="post">
+					<header class="major">
+						<span class="date">
+							{{page.date | date_to_string}}
+							{% if page.author_git %}
+								@<a href="https://github.com/{{ page.author_git }}" class="post-author">{{ page.author }}</a>
+							{% else %}
+								@<a href="https://github.com/{{ page.author }}" class="post-author">{{ page.author }}</a>
+							{% endif %}
+						</span>
+						<h1>{{page.title}}</h1>
+						<p>{{page.excerpt}}</p>
+					</header>
+					<div class="image main"><img src="{{page.image}}" alt=""></div>
+					<p>{{content}}</p>
+				</section>
+
+				{% include comments.html %}
+
+				<footer>
+					<ul class="actions">
+						<li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+					</ul>
+				</footer>
+			</div>
+
+			{% include footer.html %}
+
+		</div>
+
+  		{% include scripts-main.html %}
+		{% include tracking.html %}
+	</body>
+</html>

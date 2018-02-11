@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
+
+		<div id="wrapper" class="fade-in">
+
+			{% include header-link.html %}
+
+			<nav id="nav">
+				{% include nav.html %}
+				<ul class="icons">
+					{% include social.html %}
+				</ul>
+			</nav>
+
+			<div id="main">
+				<section class="post">
+					{{content}}
+				</section>
+
+				<footer>
+					<ul class="actions">
+						<li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+					</ul>
+				</footer>
+			</div>
+
+			{% include footer.html %}
+
+		</div>
+
+		{% include scripts-main.html %}
+		{% include tracking.html %}
+	</body>
+</html>
