@@ -12,45 +12,33 @@ redirect_from:
 
 <ul class="actions">
     <li><a href="{{ site.kimai_v2_repo }}{{ site.kimai_v2_latest }}" class="button special icon fa-download">Latest stable</a></li>
-    <li><a href="{{ site.kimai_v2_repo }}/zipball/develop" class="button icon fa-download">Development</a></li>
+    <li><a href="{{ site.kimai_v2_repo }}/zipball/master" class="button icon fa-download">Development</a></li>
     <li><a href="/apps/" class="button icon fa-archive">Applications</a></li>
 </ul>
 
-We keep an eye on server compatibility, requirements for Kimai are only:
-<br/>**MySQL 4.3** and **PHP 5.4** (required extensions: mysqli and iconv)
+Server requirements for Kimai are: 
 
-## Development version
+- PHP 7.1.3 or higher 
+- one of the PHP extensions `PDO-SQLite` or `PDO-MySQL`
 
-A development version is the latest package we are currently working on.
-It might have new features, but it might be broken as well!
-
-If you are an experienced user of Kimai and have the resources to help us with testing or just like to play with brand new features,
-you can [download the latest development version](https://github.com/kimai/kimai/zipball/develop).
-It includes many of the features you see at the [demo site](/demo/), which are not yet available in a stable release.
-
-Please help us, test it and [give us your feedback]({{ site.issues_url }}) if you find any problems.
-
-* * *
+If you are unsure, you can test your servers compatibility with the [Symfony requirements-checker](http://symfony.com/doc/current/reference/requirements.html).
 
 ## Installation
 
-1.  Use a **modern** Browser
-2.  You need PHP 5.4 and access to a MySQL database.
-3.  Start your browser and go to your Kimai directory.
-4.  Kimai has a step-by-step installation program, just follow the instructions of the installer.
+Full installation instructions can be found in our [GitHub documentation]({{ site.kimai_v2_repo }}#installation).
 
-**IMPORTANT** Remove the ‘installer’ directory when you’ve successfully installed Kimai.
+## Development version
 
-### Update
+A development version is the latest package we are currently working on. It might have new features or bugfixes included, but it might have new bugs as well.
 
-When you update an existing installation, just replace the entire Kimai folder on your server. Additionally you need to make all ‘compile’ folders (also inside all extension subfolders!) writable for PHP. Writing permission must also be granted to the ‘temporary’ folder and the included ‘logfile.txt’.
+If you are an experienced user of Kimai and have the resources to help us with testing or just like to play with brand new features,
+you can [download the latest development version]({{ site.kimai_v2_repo }}/zipball/master).
+It includes many of the features you see at the [demo site](/demo/), which are not yet available in a stable release.
 
-When Kimai doesn’t start the reason is probably wrong writing permissions on the mentioned files and folders!
+Please help us, test it and [give us your feedback]({{ site.kimai_v2_repo }}/issues) if you find any problems.
 
-* * *
+## Older downloads
 
-## Archived downloads
-
-Our documentation has information about fetching the [latest development version]({{ site.docu_url }}developer/index.html). 
-Older version can be found on the [GitHub release page]({{ site.repo_url }}/releases). 
-And historical versions on the [archived download page](https://sourceforge.net/projects/kimai/files/) at Sourceforge.
+- Kimai v2 releases can be found at our [GitHub release page]({{ site.kimai_v2_repo }}/releases)
+- Older version can be found on the archived [GitHub release page]({{ site.repo_url }}/releases)
+- And historical versions on the [archived download page](https://sourceforge.net/projects/kimai/files/) at Sourceforge
