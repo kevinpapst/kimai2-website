@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kimai v1
+title: Kimai v1 - a traditional web-based time tracker
 description: Kimai v1 resources - upgrade infos, documentation and links
 permalink: /v1/
 sitemap:
@@ -26,6 +26,7 @@ sitemap:
 - Find Kimai v1 sources at [GitHub]({{ site.repo_url }})
 - Create a new ticket in our [support, bug and issue tracker]({{ site.issues_url }}) 
 - [Kimai v1 documentation]({{ site.docu_url }})
+- You can try our [Kimai v1 demo](/v1/demo.html) live
 
 ## Download
 
