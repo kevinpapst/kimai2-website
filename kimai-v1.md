@@ -36,16 +36,24 @@ sitemap:
     <li><a href="/apps/" class="button icon fa-archive">Applications</a></li>
 </ul>
 
-We keep an eye on server compatibility, requirements for Kimai are only:
-<br/>**MySQL 4.3** and **PHP 5.4** (required extensions: mysqli and iconv)
+Server requirements for Kimai v1 are: 
+
+- MySQL 4.3 or higher
+- PHP 5.4 or higher
+- Required PHP extensions: `mysqli`, `iconv` and `xml`
 
 ### Installation
 
-1. Use a modern Browser
-2. You need PHP 5.4 and access to a MySQL database.
-3. Start your browser and go to your Kimai directory.
-4. Kimai has a step-by-step installation program, just follow the instructions of the installer.
-5. **IMPORTANT:** Remove the ‘installer’ directory when you’ve successfully installed Kimai.
+1. Start your browser and go to your Kimai directory
+2. Kimai has a step-by-step installation program, just follow the instructions of the installer
+3. **IMPORTANT:** Remove the `installer` and `updater` directory when you’ve successfully installed Kimai
+
+### Update Kimai v1
+
+When you update an existing installation, just replace the entire Kimai folder on your server. Additionally you need to make the `temporary` folder writable for PHP. 
+Open Kimai in your browser and follow the upgrade guide. Afterwards remove the `installer` and `updater` directories.
+
+Read more about it in our official [update documentation]({{ site.docu_url }}installation/updates.html).
 
 ## Upgrade to Kimai v2
 
