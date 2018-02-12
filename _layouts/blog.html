@@ -7,6 +7,7 @@ author: all
 <html>
 	<head>
     {% include head.html %}
+		paginator.page
 	</head>
 	<body class="is-loading">
 
@@ -40,21 +41,7 @@ author: all
 					</p>
 				</article>
 
-				{% include posts.html limit=4 %}
-
-				<section>
-					<table class="post-list">
-					<h2>Older Posts</h2>
-					{% for post in site.posts %}
-						{% if forloop.index > 4 %}
-						<tr>
-							<td><a href='{{ post.url }}'>{{ post.title }}</a></td>
-							<td class="post-date">{{ post.date | date_to_string }}</td>
-						</tr>
-						{% endif %}
-					{% endfor %}
-					</table>
-				</section>
+				{{ content }}
 
 			</div>
 

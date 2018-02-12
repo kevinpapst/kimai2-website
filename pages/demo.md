@@ -23,6 +23,6 @@ Please notice, that the Demo will be reinstalled on a regular schedule and all e
 ## Note
 
 The demo is always created from the latest master branch.
-It's possible, that you find bugs, which will not be available in a release version.
+It's possible that you find bugs which will not be available in a release version.
 
-The Kimai demo will be reinstalled multiple times a day, that's why you cannot perform long-time tests.
+The Kimai demo will be reinstalled multiple times a day, mae sure that you don't run into a reinstall while performing your tests.

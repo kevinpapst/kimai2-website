@@ -1,0 +1,58 @@
+---
+author: all
+---
+<!DOCTYPE HTML>
+<html>
+<head>
+	{% include head.html %}
+</head>
+<body class="is-loading">
+
+<div id="wrapper" class="fade-in">
+
+	{% include header-link.html %}
+
+	<nav id="nav">
+		{% include nav.html %}
+		<ul class="icons">
+			{% include social.html %}
+		</ul>
+	</nav>
+
+	<div id="main">
+		<article class="post">
+			<header class="major">
+				<h1><a href="#">All Kimai blog posts</a></h1>
+				<p>
+					A listing of all blog posting for Kimai
+				</p>
+			</header>
+			<p>
+				Tip: Subscribe to our <a href="{{ site.kimai_v2_repo }}/releases.atom">release feed</a> and you will never miss a new version!
+			</p>
+		</article>
+
+		<section>
+			<table class="post-list">
+				<h2>Older Posts</h2>
+				{% for post in site.posts %}
+				{% if forloop.index > 4 %}
+				<tr>
+					<td><a href='{{ post.url }}'>{{ post.title }}</a></td>
+					<td class="post-date">{{ post.date | date_to_string }}</td>
+				</tr>
+				{% endif %}
+				{% endfor %}
+			</table>
+		</section>
+
+	</div>
+
+	{% include footer.html %}
+
+</div>
+
+{% include scripts-main.html %}
+{% include tracking.html %}
+</body>
+</html>

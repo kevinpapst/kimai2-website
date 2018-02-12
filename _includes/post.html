@@ -1,0 +1,11 @@
+<article>
+	<header>
+		<span class="date">{{ include.post.date | date_to_string }}</span>
+		<h2><a href="{{ include.post.url | absolute_url }}">{{ include.post.title }}</h2>
+	</header>
+	<a href="{{ include.post.url | absolute_url }}" class="image fit"><img src="{{ include.post.image | absolute_url }}" alt="" /></a>
+	<p>{{ include.post.excerpt }}</p>
+	<ul class="actions">
+		<li><a href="{{ include.post.url | absolute_url }}" class="button">Full Story</a></li>
+	</ul>
+</article>

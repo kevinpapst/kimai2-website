@@ -94,5 +94,5 @@ There were way too many people to name them all, so this list is only a small co
 
 ## Credits
 
-- Site is powered by [http://jekyllrb.com/](Jekyll)
-- using the theme [https://html5up.net/massively](Massively by html5up.net) by @ajlkn
+- Site is powered by [Jekyll](http://jekyllrb.com/)
+- using the theme [Massively by html5up.net](https://html5up.net/massively) by @ajlkn
