@@ -57,15 +57,18 @@ jekyll-mentions:
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
 
 # Kimai exclusive
+use_pagination: false
 permalink: /blog/:year/:title/
 name: Kimai Time-Tracking
 download_url: /download/
 
+# Kimai v2
 kimai_v2_repo: https://github.com/kevinpapst/kimai2
 kimai_v2_docu: https://github.com/kevinpapst/kimai2/tree/master/var/docs
 kimai_v2_latest: /archive/0.1.zip
 kimai_v2_demo: http://demo.kimai.org
 
+# Kimai v1
 repo_url: https://github.com/kimai/kimai
 docu_url: http://www.kimai.org/documentation/
 issues_url: https://github.com/kimai/kimai/issues
