@@ -20,7 +20,7 @@ Not everyone will like it (as it is always with relaunches) and the new website 
 
 So say goodbye to:
 
-![Old website desig](/images/old-website.jpg){:class="img-responsive"}
+![Old website desig](/images/old-website.jpg){:class="image fit"}
 
 And the next posts will be more about Kimai v2 and less about us ;-)
 
