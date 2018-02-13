@@ -8,7 +8,12 @@ redirect_from:
   - /download.html
 ---
 
-# Download
+<header class="major">
+	<h1>Download</h1>
+    <p>
+    Get your copy of the Kimai time-tracking app for free: unlimited users, no license fees! 
+    </p>
+</header>
 
 <ul class="actions">
     <li><a href="{{ site.kimai_v2_repo }}{{ site.kimai_v2_latest }}" class="button special icon fa-download">Latest stable</a></li>

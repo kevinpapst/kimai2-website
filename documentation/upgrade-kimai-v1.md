@@ -1,62 +1,10 @@
 ---
-layout: page
-title: Kimai v1 - a traditional web-based time tracker
-description: Kimai v1 resources - upgrade infos, documentation and links
-permalink: /v1/
-sitemap:
-    priority: 0.7
-    lastmod: 2018-02-10
-    changefreq: weekly
+layout: documentation
+title: Upgrade to Kimai v2
+description: Updating Kimai your v1 installation to Kimai v2 - the easy way
 ---
 
-<header class="major">
-	<h1>Kimai v1</h1>
-    <p>
-        In the mid of 2018 we released <b>Kimai v2 reloaded</b> and stopped support for Kimai v1. 
-        But we know its still widely used and we want to make the upgrade process as smooth as possible for our users. 
-    </p>
-</header>
-
->Feature support for Kimai v1 was stopped with the release of Kimai v2. 
->We will support Kimai v1 until end of 2018 with bugfixes and security related issues.
->Please consider upgrading as soon as possible!
-
-## Links
-
-- Find Kimai v1 sources at [GitHub]({{ site.repo_url }})
-- Create a new ticket in our [support, bug and issue tracker]({{ site.issues_url }}) 
-- [Kimai v1 documentation]({{ site.docu_url }})
-- You can try our [Kimai v1 demo](/v1/demo.html) live
-
-## Download
-
-<ul class="actions">
-    <li><a href="{{ site.stable_url }}" class="button special icon fa-download">Stable - 1.1.0</a></li>
-    <li><a href="{{ site.repo_url }}/zipball/develop" class="button icon fa-download">Development</a></li>
-    <li><a href="https://github.com/kimai/manuals/raw/master/documentation.pdf" class="button icon fa-file-pdf-o">Documentation</a></li>
-    <li><a href="/apps/" class="button icon fa-archive">Applications</a></li>
-</ul>
-
-Server requirements for Kimai v1 are: 
-
-- MySQL 4.3 or higher
-- PHP 5.4 or higher
-- Required PHP extensions: `mysqli`, `iconv` and `xml`
-
-### Installation
-
-1. Start your browser and go to your Kimai directory
-2. Kimai has a step-by-step installation program, just follow the instructions of the installer
-3. **IMPORTANT:** Remove the `installer` and `updater` directory when you’ve successfully installed Kimai
-
-### Update Kimai v1
-
-When you update an existing installation, just replace the entire Kimai folder on your server. Additionally you need to make the `temporary` folder writable for PHP. 
-Open Kimai in your browser and follow the upgrade guide. Afterwards remove the `installer` and `updater` directories.
-
-Read more about it in our official [update documentation]({{ site.docu_url }}installation/updates.html).
-
-## Upgrade to Kimai v2
+## Upgrade to Kimai v2 (from v1)
 
 *You have to install Kimai v2 first, please read the documentation at [GitHub]({{ site.kimai_v2_repo }}).
 We recommend installing it on the same server, as long as you can meet the PHP7 requirement.*

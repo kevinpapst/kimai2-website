@@ -2,16 +2,14 @@
 layout: page
 title: Applications for Kimai
 description: Application to use Kimai on desktop and mobile
-permalink: /apps/
 ---
 
-# Applications
+# Applications - Kimai v1
 
 Thanks to many great developer out there we have several external applications, which allow you to use Kimai on your Desktop and mobile device.
+We hope you can find something that fits your needs!
 
-Please note, that these apps are not maintained by the Kimai Team.
-
-Have fun with the following list, we hope you can find something that fits your needs!
+Please note that these apps are not maintained by the Kimai Team.
 
 * * *
 
