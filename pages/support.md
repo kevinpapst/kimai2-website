@@ -21,7 +21,6 @@ sitemap:
 </header>
 
 - Create a new ticket in our [support, bug and issue tracker]({{ site.kimai_v2_repo }}/issues) 
-- [Kimai documentation]({{ site.kimai_v2_docu }})
 
 ### Kimai v1
 
