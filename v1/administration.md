@@ -2,6 +2,9 @@
 layout: documentation
 title: Documentation for Kimai
 description: Documentation for Kimai Time-Tracking
+redirect_from:
+  - /documentation/manual/projects.html
+  - /documentation/manual/users.html
 ---
 # Administration
 
