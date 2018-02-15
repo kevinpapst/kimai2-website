@@ -4,6 +4,7 @@ title: Support and documentation for Kimai
 description: Support information, user manual and other documentation for Kimai time-tracking
 permalink: /documentation/
 redirect_from:
+  - /documentation/manual/index.html
   - /dokumentation/
   - /en/documentation/
 
@@ -16,7 +17,7 @@ sitemap:
 <header class="major">
 	<h1>Kimai Support</h1>
     <p>
-        Documentation, support information and other useful resources for Kimai.
+        Documentation, support information and other resources for Kimai
     </p>
 </header>
 
