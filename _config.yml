@@ -4,7 +4,9 @@ bio:                'Kimai time-tracking'
 description:        "Kimai time-tracking app - a free and open-source PHP based time-tracker for agencies and freelancer"
 locale:             en_US
 baseurl:            "" # the subpath of your site, e.g. /blog
-url:                "" # the base hostname & protocol for your site
+
+# jekyll-sitemap: base hostname & protocol for your site
+url:                "https://v2.kimai.org"
 
 defaults:
 - scope:
