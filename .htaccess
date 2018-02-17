@@ -1,5 +1,5 @@
 ---
 ---
 {% for page in site.pages %}{% for redirect in page.redirect_from %}
-rewrite ^{{ redirect }}$ {{ page.permalink }} permanent;
+rewrite ^{{ redirect }}$ {% if page.permalink == nil %}{{ page.url }}{% else %}{{ page.permalink }}{% endif %} permanent;
 {% endfor %}{% endfor %}
