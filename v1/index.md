@@ -2,6 +2,8 @@
 layout: page
 title: Kimai v1 - a traditional web-based time tracker
 description: Kimai v1 resources - upgrade infos, documentation and links
+redirect_from:
+  - faq.html
 sitemap:
     priority: 0.7
     lastmod: 2018-02-10
