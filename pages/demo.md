@@ -25,13 +25,13 @@ Please notice, that the Demo will be reinstalled on a regular schedule and all e
 The following user are available for your tests. Please create your own test user (see below) if these don't work:
 
 | Username | Password | Role | Description |
-|---|:---:|---|
+|---|:---:|:---:|---|
 | john_user | kitten | User | |
-| chris_user | kitten | User | deactivated, cannot login |
+| chris_user | kitten | User | deactivated |
 | tony_teamlead | kitten | Teamlead | |
 | anna_admin | kitten | Administrator | |
 | susan_super | kitten | Super-Administrator | |
-| admin | password | Super-Administrator | no timesheet records |
+| admin | password | Super-Administrator | no records |
 
 ## Demo state & new test user
 
@@ -43,7 +43,7 @@ You can create your own [Kimai v2 demo login here]({{ site.kimai_v2_demo }}/stat
 
 ## Note
 
-- The demo imports the test fixtures that are shipped with Kimai v2, so you can start your tests with a decent amount of data 
-- The Kimai demo will be reinstalled twice a day, make sure that you don't run into a reinstall while performing your tests
+- The demo imports the Kimai v2 test fixtures, so you can start your tests with a decent amount of data 
+- The demo will be reinstalled twice a day, make sure you don't run into a reinstall while testing
 - The demo is always created from the latest master branch
 - It's possible that you find bugs which will not be available in a release version
