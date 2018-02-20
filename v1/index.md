@@ -47,6 +47,7 @@ Server requirements for Kimai v1 are:
 
 * [Installation](installation/)
 * [Updates](updates/)
+* [Upgrade to v2](/documentation/upgrade-kimai-v1/)!
 
 ### Using Kimai
 
