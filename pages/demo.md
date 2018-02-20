@@ -20,16 +20,9 @@ impression on how this software feels and which functionality it provides.
 If you encounter any problem, we would kindly ask you to send us a [message in our issue tracker]({{ site.kimai_v2_repo }}/issues).
 Please notice, that the Demo will be reinstalled on a regular schedule and all entered data will be removed.
 
-## Note
-
-- The demo is always created from the latest master branch
-- It's possible that you find bugs which will not be available in a release version
-- The Kimai demo will be reinstalled twice a day, make sure that you don't run into a reinstall while performing your tests
-- The demo imports the default test fixtures that is shipped with Kimai v2, so you can start with a decent amount of data 
-
 ## Demo users
 
-The following user are availbale for your test purpose. Please create your own test user (see below) if these don't work:
+The following user are available for your test purpose. Please create your own test user (see below) if these don't work:
 
 | Username | Password | Role |
 |---|:---:|---|
@@ -44,5 +37,11 @@ The following user are availbale for your test purpose. Please create your own t
 
 The demo url is: [{{ site.kimai_v2_demo }}]({{ site.kimai_v2_demo }})
 
-<script src="https://demo-v2.kimai.org/status.php"></script>
+<script src="https://demo-v2.kimai.org/status.js"></script>
 
+## Note
+
+- The demo is always created from the latest master branch
+- It's possible that you find bugs which will not be available in a release version
+- The Kimai demo will be reinstalled twice a day, make sure that you don't run into a reinstall while performing your tests
+- The demo imports the default test fixtures that is shipped with Kimai v2, so you can start with a decent amount of data 
