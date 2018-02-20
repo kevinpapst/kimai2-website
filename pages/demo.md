@@ -39,6 +39,8 @@ The demo url is: [{{ site.kimai_v2_demo }}]({{ site.kimai_v2_demo }})
 
 <script src="https://demo-v2.kimai.org/status.php"></script>
 
+You can create your own [Kimai v2 demo login here]({{ site.kimai_v2_demo }}/status.php?mode=createUser).
+
 ## Note
 
 - The demo is always created from the latest master branch
