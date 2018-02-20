@@ -67,7 +67,8 @@ download_url: /download/
 # Kimai v2
 kimai_v2_repo: https://github.com/kevinpapst/kimai2
 kimai_v2_docu: https://github.com/kevinpapst/kimai2/tree/master/var/docs
-kimai_v2_latest: /archive/0.1.zip
+#kimai_v2_latest: /archive/0.1.zip
+kimai_v2_latest: /zipball/master
 kimai_v2_demo: https://demo-v2.kimai.org
 
 # Kimai v1

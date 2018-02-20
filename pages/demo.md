@@ -22,16 +22,16 @@ Please notice, that the Demo will be reinstalled on a regular schedule and all e
 
 ## Demo users
 
-The following user are available for your test purpose. Please create your own test user (see below) if these don't work:
+The following user are available for your tests. Please create your own test user (see below) if these don't work:
 
-| Username | Password | Role |
+| Username | Password | Role | Description |
 |---|:---:|---|
-| john_user | kitten | User |
-| chris_user | kitten | User (deactivated) |
-| tony_teamlead | kitten | Teamlead |
-| anna_admin | kitten | Administrator |
-| susan_super | kitten | Super-Administrator |
-| admin | password | Super-Administrator |
+| john_user | kitten | User | |
+| chris_user | kitten | User | deactivated, cannot login |
+| tony_teamlead | kitten | Teamlead | |
+| anna_admin | kitten | Administrator | |
+| susan_super | kitten | Super-Administrator | |
+| admin | password | Super-Administrator | no timesheet records |
 
 ## Demo state & new test user
 

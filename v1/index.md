@@ -13,8 +13,8 @@ sitemap:
 <header class="major">
 	<h1>Kimai v1</h1>
     <p>
-        In the mid of 2018 we released <b>Kimai v2 reloaded</b> and stopped support for Kimai v1. 
-        But as we know v1 is still widely used, so we created this page as backup and your guide in the upgrade process. 
+        In the mid of 2018 we will release <b>Kimai v2</b> and stop support for Kimai v1. 
+        But as v1 is still widely used, we created this page as backup and your guide in the upgrade process. 
     </p>
 </header>
 
@@ -67,3 +67,9 @@ Server requirements for Kimai v1 are:
 * [Authenticator](authenticator/)
 * [Extensions](extensions/)
 * [Team stuff](team/)
+
+## Other downloads
+
+- Kimai v2 releases can be found at our [GitHub release page]({{ site.kimai_v2_repo }}/releases)
+- Kimai v1 releases can be found on the [release page]({{ site.repo_url }}/releases) of the v1 repository
+- And historical versions on the [archived download page](https://sourceforge.net/projects/kimai/files/) at Sourceforge
