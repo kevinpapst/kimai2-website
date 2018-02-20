@@ -37,7 +37,7 @@ The following user are available for your test purpose. Please create your own t
 
 The demo url is: [{{ site.kimai_v2_demo }}]({{ site.kimai_v2_demo }})
 
-<script src="https://demo-v2.kimai.org/status.js"></script>
+<script src="https://demo-v2.kimai.org/status.php"></script>
 
 ## Note
 
