@@ -40,14 +40,14 @@ sitemap:
 Server requirements for Kimai v1 are: 
 
 - MySQL 4.3 or higher
-- PHP 5.4 or higher
+- PHP 5.5 or higher
 - Required PHP extensions: `mysqli`, `iconv` and `xml`
 
 ## Documentation
 
 * [Installation](installation/)
 * [Updates](updates/)
-* [Upgrade to v2](/documentation/upgrade-kimai-v1/)!
+* [Upgrade to v2](/documentation/upgrade-kimai-v1/)
 
 ### Using Kimai
 
