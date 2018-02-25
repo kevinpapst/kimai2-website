@@ -47,10 +47,10 @@ gems:
   - jekyll-feed
   - jekyll-gist
   - jekyll-redirect-from
-#  - jekyll-paginate
+  - jekyll-paginate
 
-#paginate: 6
-#paginate_path: "/blog/page:num/"
+paginate: 6
+paginate_path: "/blog/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com
