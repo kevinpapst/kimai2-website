@@ -41,7 +41,7 @@ If you like Kimai, if you use it on a daily basis or administrate Kimai in your 
 
 <div class="box">
     <div class="row 50% uniform">
-        <div class="6u">
+        <div class="6u 12u$(small)">
             <h3>Kevin</h3>
             <span class="image left"><img src="https://avatars1.githubusercontent.com/u/533162?s=460&v=4" style="width:" alt="" /></span>
             Project maintainer and core developer <a href="/blog/2009/the-condemned-live-longer/">since 2009</a>.
@@ -57,7 +57,7 @@ If you like Kimai, if you use it on a daily basis or administrate Kimai in your 
             </a>
             {% endcomment %}
         </div>
-        <div class="6u$">
+        <div class="6u$ 12u$(small)">
             <h3>Simon</h3>
             <span class="image left"><img src="https://avatars1.githubusercontent.com/u/941794?s=460&v=4" alt="" /></span>
             Joined the Kimai core team in 2014. Takes care of your GitHub issues, thinks about and develops new features. 
