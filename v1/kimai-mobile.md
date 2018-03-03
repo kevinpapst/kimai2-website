@@ -6,14 +6,13 @@ redirect_from:
   - /kimai-mobile/
 ---
 
-# Kimai - jQuery Mobile Interface
+# Kimai mobile interface
 
 jQuery mobile time tracking frontend for Kimai, optimized for usage on mobile devices
 
-<section id="downloads">
-      <a href="https://github.com/kimai/kimai-mobile/zipball/master"><span>.zip file</span></a>
-</section>
-<div class="clearleft"></div>
+<ul class="actions">
+    <li><a href="https://github.com/kimai/kimai-mobile/zipball/master" class="button special icon fa-download">.zip file</a></li>
+</ul>
 
 Its a small website that lets you start and stop your time record from mobile devices.
 
