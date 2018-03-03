@@ -9,34 +9,32 @@ redirect_from:
   - /spenden.html
 sitemap:
     priority: 0.7
-    lastmod: 2017-11-02
+    lastmod: 2018-03-03
     changefreq: weekly
 ---
 
 <header class="major">
 	<h1>About Kimai</h1>
-    <p>
-        Probably the <b>best</b> free and open source <b>time-tracking app</b> you will find ...
-    </p>
+	<p>Probably the <b>best</b> free and open source <b>time-tracking app</b> you will find ...</p>
 </header>
 
 <span class="image left"><img src="{{ "/images/kimai_logo.png" | absolute_url }}" alt="Kimai logo" /></span>
 
 Kimai is a time-tracking app with a long history. Its first version was released more than 10 years ago. Why do we mention that? 
 Because we have seen so many services come and go in the last decade - trust us when we say: we'll stick around. 
-We never made a living from Kimai, its pure fun that we keep on improving it and that's probably the main reason for Kimais success.
+We never made a living from Kimai, it's pure fun that we keep on improving it and that's probably the main reason for Kimai's success.
 
-We build Kimai for one main purpose: tracking your working hours. It can handle an unlimited amount of users and timesheet entries, 
+We build Kimai for one purpose: tracking your working hours. It can handle unlimited users and timesheet entries, 
 so you can handle all of your teams/departments in one easy to use installation. 
-It is web-based, so all you need is a PHP enabled web-server to use it. It uses an responsive design, so you can you use itwith your mobile device while you are on the go. 
-Kimai is translated into multiple languages and missing tranlations can be added easily, using the open translation standard Xliff.
+It is web-based, so all you need is a PHP enabled webserver. It uses a responsive design, so you can you use it with your mobile device while you are on the go.
+Kimai is translated into multiple languages and missing translations can be added easily using the open translation standard Xliff.
 
 Oh, and did we mention that you can create invoices from your timesheets, just using your browser? It has not only customizable 
-invoice templates, Kimai can easily be extended in various ways. Its build on the most popular and modern frameworks and has several
-extension points for your developers. 
-    
+invoice templates, Kimai can easily be extended in various ways. It's build on the most popular and modern frameworks and has several
+extension points for your developers.
+
 Now, we could write so much more about its features and the benefits it will bring to you - whether you are a freelancer, 
-a small organization or a company with hundreds od employees - but we think, that giving you the option to test it directly is worth than a thousand words!
+a small organization or a company with hundreds of employees - but we think, that giving you the option to test it directly is worth than a thousand words!
 
 So here are some links you might find interesting:
 
@@ -54,7 +52,7 @@ If you like Kimai, if you use it on a daily basis or administrate Kimai in your 
     <div class="row 50% uniform">
         <div class="6u 12u$(small)">
             <h3>Kevin</h3>
-            <span class="image left"><img src="https://avatars1.githubusercontent.com/u/533162?s=460&v=4" style="width:" alt="" /></span>
+            <span class="image left"><img src="https://avatars1.githubusercontent.com/u/533162?s=460&v=4" alt="" /></span>
             Project maintainer and core developer <a href="/blog/2009/the-condemned-live-longer/">since 2009</a>.
             Takes care of basically everything - mainly the website and Kimai v2.  
             
@@ -74,9 +72,8 @@ If you like Kimai, if you use it on a daily basis or administrate Kimai in your 
             Joined the Kimai core team in 2014. Takes care of your GitHub issues, thinks about and develops new features. 
 
             <ul class="actions">
-                <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MQQN8Z953WV8Q" class="button icon fa-paypal">Donate with PayPal</a></li>
+                <li><a href="https://www.paypal.me/simonschaufi" class="button icon fa-paypal">Donate with PayPal</a></li>
             </ul>
-
         </div>
     </div>
 </div>
@@ -97,12 +94,12 @@ With the help of other open source volunteers he was able to keep it alive and e
 In the meantime the PHP community made great steps forward and Kimai felt back, due to its technical history - built around a lot of single PHP scripts which all had to be public accessible.
 It had also some major drawbacks, like very limited capabilities of extending it. Also, after many years of development, the code base became hard to maintain and the logic was wildly spread among scripts, classes and the frontend layer.
  
-Thats why the idea of rewriting Kimai in modern frameworks was there for a very long time, also driven by community requests, but (honestly) we simply had no time to push these ideas forward. 
-In the end of 2017 Symfony released its framework in the version 4.0 along with a neat tool called Flex.
-Thats when we took the opportunity and started the development of the next evolutional step: Kimai v2 reloaded was born.
+Thats why the idea of rewriting Kimai with modern frameworks was there for a very long time, also driven by community requests, but we simply had no time to push these ideas forward.
+In the end of 2017 Symfony 4.0 was released along with a neat tool called Flex.
+That's when we took the opportunity and started the development of the next evolutional step: Kimai v2 reloaded was born.
 
 The software Kimai is now almost 15 years old and is used all over the world. We are proud of that and about its great community. 
-Thats why we would like to thank each and everyone who contributed to Kimai.
+That's why we would like to thank each and everyone who contributed to Kimai.
 There were way too many people to name them all, so this list is only a small compilation of the people who contributed huge amounts of time, code, thoughts and help to Kimai and its community:
  
 - [Torsten Höltge](http://www.theauditorymisled.de/) - the original creator of Kimai
