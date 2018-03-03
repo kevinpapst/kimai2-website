@@ -94,7 +94,7 @@ With the help of other open source volunteers he was able to keep it alive and e
 In the meantime the PHP community made great steps forward and Kimai felt back, due to its technical history - built around a lot of single PHP scripts which all had to be public accessible.
 It had also some major drawbacks, like very limited capabilities of extending it. Also, after many years of development, the code base became hard to maintain and the logic was wildly spread among scripts, classes and the frontend layer.
  
-Thats why the idea of rewriting Kimai with modern frameworks was there for a very long time, also driven by community requests, but we simply had no time to push these ideas forward.
+That's why the idea of rewriting Kimai with modern frameworks was there for a very long time, also driven by community requests, but we simply had no time to push these ideas forward.
 In the end of 2017 Symfony 4.0 was released along with a neat tool called Flex.
 That's when we took the opportunity and started the development of the next evolutional step: Kimai v2 reloaded was born.
 
