@@ -23,27 +23,23 @@ sitemap:
 <span class="image left"><img src="{{ "/images/kimai_logo.png" | absolute_url }}" alt="Kimai logo" /></span>
 
 Kimai is a time-tracking app with a long history. Its first version was released more than 10 years ago. Why do we mention that? 
-Because we have seen so many services come and go in the last decade - trust us when we say: we'll stick around. 
-We never made a living from Kimai, its pure fun that we keep on improving it and that's probably the main reason for Kimais success.
+Because we have seen so many services come and go in the last decade - you can trust us when we say: we'll stick around. 
+We never made a living from Kimai, its the fun that keeps us motivated, motivated to improve Kimai. We think that's of the main reasons for Kimais success.
 
-We build Kimai for one main purpose: tracking your working hours. It can handle an unlimited amount of users and timesheet entries, 
-so you can handle all of your teams/departments in one easy to use installation. 
-It is web-based, so all you need is a PHP enabled web-server to use it. It uses an responsive design, so you can you use itwith your mobile device while you are on the go. 
-Kimai is translated into multiple languages and missing tranlations can be added easily, using the open translation standard Xliff.
+We build Kimai for one main purpose: tracking your working hours. Kimai supports an unlimited amount of users and timesheet entries, 
+so you can handle all of your teams/departments in one easy-to-use installation. 
+Kimai is web-based, so all you need is a PHP enabled web-server. Its build with a responsive design, so you can even track times using your mobile device while you are on the go. 
+Kimai is translated into multiple languages and missing translations can be added easily, using the open translation standard Xliff.
 
-Oh, and did we mention that you can create invoices from your timesheets, just using your browser? It has not only customizable 
+Oh, and did we mention that you can create invoices from your timesheets within your browser? It has not only customizable 
 invoice templates, Kimai can easily be extended in various ways. Its build on the most popular and modern frameworks and has several
-extension points for your developers. 
+extension points for your developers.
     
 Now, we could write so much more about its features and the benefits it will bring to you - whether you are a freelancer, 
-a small organization or a company with hundreds od employees - but we think, that giving you the option to test it directly is worth than a thousand words!
+a small organization or a company with hundreds of employees - but we think, that giving you the option to test it directly is even better than a thousand words from us:
+So be our guest and test Kimai online with our [demo installation](/demo/). If you are a friend of hard facts, we also have a compiled [feature list](/).
 
-So here are some links you might find interesting:
-
-- read what Kimai offers in our [feature list](/)
-- test Kimai online with our [demo installation](/demo/)
-
-Remember: Kimai is open-source, you can download it for free and you will never be charged a license fee for any future update.
+And last but not least - probably the most important fact: Kimai is open-source, you can download it for free and you will never be charged a license fee for any future update.
 
 ## Donations
 
