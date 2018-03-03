@@ -10,9 +10,7 @@ redirect_from:
 
 <header class="major">
 	<h1>Demo</h1>
-    <p>
-    Try out the Kimai time-tracking demo and we promise: your next step will be the <a href="{{ site.download_url }}">download</a> 
-    </p>
+	<p>Try out the Kimai time-tracking demo and we promise: your next step will be the <a href="{{ site.download_url }}">download</a></p>
 </header>
 
 This page leads you to a [demo installation]({{ site.kimai_v2_demo }}) of Kimai, where you can get a first
@@ -44,6 +42,6 @@ You can create your own [Kimai v2 demo login here]({{ site.kimai_v2_demo }}/stat
 ## Note
 
 - The demo imports the Kimai v2 test fixtures, so you can start your tests with a decent amount of data 
-- The demo will be reinstalled twice a day, make sure you don't run into a reinstall while testing
+- The demo will be reinstalled twice a day, it could happen that you run into a reinstall while testing
 - The demo is always created from the latest master branch
 - It's possible that you find bugs which will not be available in a release version
