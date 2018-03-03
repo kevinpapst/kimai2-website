@@ -15,7 +15,7 @@ defaults:
   values:
     permalink: "/blog/:year/:title/"
     layout: post
-    author:
+    author: kevinpapst
 
 # Jekyll
 permalink:          /blog/:year/:title/
@@ -31,9 +31,6 @@ mathjax:            true
 sass:
   sass_dir:         assets/sass
   style:            compressed
-
-# Comments
-disqus_shortname:   default
 
 # personal
 location:           Berlin, Germany
