@@ -1,5 +1,5 @@
 ---
-layout: kimai
+layout: page
 title: Kimai Mobile
 description: jQuery mobile time tracking frontend for Kimai, optimized for usage on mobile devices
 redirect_from:
