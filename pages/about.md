@@ -22,17 +22,28 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/kimai_logo.png" | absolute_url }}" alt="Kimai logo" /></span>
 
-XXXXXXX Making steady content and conveying it well takes a great deal of research and, hence, time and exertion. 
-Building a profound established comprehension of your target customer needs is critical as your principle objective ought to be to fulfill their requirements as awesome content. 
-You should need to enhance their lives. Having significant content like this may not be simple by any methods. 
-Be that as it may, in any case, it's a fundamental apparatus in the event that you expect to grow a fruitful and supportable business in the present web focused world.
+Kimai is a time-tracking app with a long history. Its first version was released more than 10 years ago. Why do we mention that? 
+Because we have seen so many services come and go in the last decade - trust us when we say: we'll stick around. 
+We never made a living from Kimai, its pure fun that we keep on improving it and that's probably the main reason for Kimais success.
 
-xxxxx Receiving the benefits of content is a certain something. 
-Be that as it may, it's so substantially less demanding once you begin conveying all the more successfully. 
-The profitable content thought isn't just about bragging your item's capacities and general worth or your organization's achievements. 
-You should concentrate less on advertising how awesome your item is and rather concentrate on indicating how valuable it is. 
-This is a client focused approach as it concentrates on their issues and your answer for them. 
-Making yourself fundamental is critical.
+We build Kimai for one main purpose: tracking your working hours. It can handle an unlimited amount of users and timesheet entries, 
+so you can handle all of your teams/departments in one easy to use installation. 
+It is web-based, so all you need is a PHP enabled web-server to use it. It uses an responsive design, so you can you use itwith your mobile device while you are on the go. 
+Kimai is translated into multiple languages and missing tranlations can be added easily, using the open translation standard Xliff.
+
+Oh, and did we mention that you can create invoices from your timesheets, just using your browser? It has not only customizable 
+invoice templates, Kimai can easily be extended in various ways. Its build on the most popular and modern frameworks and has several
+extension points for your developers. 
+    
+Now, we could write so much more about its features and the benefits it will bring to you - whether you are a freelancer, 
+a small organization or a company with hundreds od employees - but we think, that giving you the option to test it directly is worth than a thousand words!
+
+So here are some links you might find interesting:
+
+- read what Kimai offers in our [feature list](/)
+- test Kimai online with our [demo installation](/demo/)
+
+Remember: Kimai is open-source, you can download it for free and you will never be charged a license fee for any future update.
 
 ## Donations
 
