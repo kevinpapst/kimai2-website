@@ -57,7 +57,7 @@ If you like Kimai, if you use it on a daily basis or administrate Kimai in your 
             Takes care of basically everything - mainly the website and Kimai v2.  
             
             <ul class="actions">
-                <li><a href="https://www.paypal.me/kevinpapst" class="button icon fa-paypal">Donate with PayPal</a></li>
+                <li><a href="https://www.paypal.me/kevinpapst" target="_blank" class="button icon fa-paypal">Donate with PayPal</a></li>
             </ul>
 
             {% comment %}
@@ -72,7 +72,7 @@ If you like Kimai, if you use it on a daily basis or administrate Kimai in your 
             Joined the Kimai core team in 2014. Takes care of your GitHub issues, thinks about and develops new features. 
 
             <ul class="actions">
-                <li><a href="https://www.paypal.me/simonschaufi" class="button icon fa-paypal">Donate with PayPal</a></li>
+                <li><a href="https://www.paypal.me/simonschaufi" target="_blank" class="button icon fa-paypal">Donate with PayPal</a></li>
             </ul>
         </div>
     </div>
