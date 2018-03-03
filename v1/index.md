@@ -59,6 +59,7 @@ Server requirements for Kimai v1 are:
 * [Rates](rates/)
 * [Fees](fees/)
 * [Administration](administration/)
+* [Kimai mobile](kimai-mobile/)
 
 ### Developer
 
