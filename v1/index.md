@@ -13,16 +13,12 @@ sitemap:
 <header class="major">
 	<h1>Kimai v1</h1>
     <p>
-        In the mid of 2018 we will release <b>Kimai v2</b> and stop support for Kimai v1. 
+        In the mid of 2018 we will release <b>Kimai v2</b> and stop support for Kimai v1 by the end of 2018. 
         But as v1 is still widely used, we created this page as backup and your guide in the upgrade process. 
+        <br/>
+        Please consider <a href="/documentation/upgrade-kimai-v1/">upgrading as soon as possible</a>.
     </p>
 </header>
-
->Feature support for Kimai v1 was stopped with the release of Kimai v2. 
->We will support Kimai v1 until end of 2018 with bugfixes and security related issues.
->Please consider [upgrading as soon as possible](/documentation/upgrade-kimai-v1/)!
-
-## Links
 
 - Find Kimai v1 sources at [GitHub]({{ site.repo_url }})
 - Create a new ticket in our [support, bug and issue tracker]({{ site.issues_url }}) 
