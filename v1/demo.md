@@ -23,9 +23,7 @@ Please notice, that the Demo will be reinstalled on a regular schedule and all e
 
 Click the button and you will be redirected to a page where you receive a unique user-login for your test: 
 
-<iframe class="demoframe" src="{{ site.demo_url }}/status.php" width="100%"></iframe>
-
-This frame is embedded from an external location and looks "funny", please ignore that ...
+<script src="{{ site.demo_url }}/status.php"></script>
 
 ## Login
 
