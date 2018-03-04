@@ -21,19 +21,19 @@ Please notice, that the Demo will be reinstalled on a regular schedule and all e
 
 ### Current state
 
-Click the button and you will be redirected to a page where you receive a unique user-login for your test: 
+Click the button below and you will be redirected to a page where you receive a unique user-login for your test. 
 
 <script src="{{ site.demo_url }}/status.php"></script>
 
 ## Login
 
 As Kimai forbids multiple sessions for the same user, the previously logged-in user will be logged out, if another
-login occurs for that  account. Therefor is it recommended to create your own test-account instead of using the
+login occurs for that same account. Therefor is it recommended to create your own test-account instead of using the
 following "admin" account:
 
 *   Website: [{{ site.demo_url }}]({{ site.demo_url }})
 *   Username: admin
-*   Password:&nbsp;changeme
+*   Password: changeme
 
 ## Note
 
