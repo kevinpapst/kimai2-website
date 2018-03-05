@@ -98,11 +98,11 @@ The software Kimai is now almost 15 years old and is used all over the world. We
 That's why we would like to thank each and everyone who contributed to Kimai.
 There were way too many people to name them all, so this list is only a small compilation of the people who contributed huge amounts of time, code, thoughts and help to Kimai and its community:
  
-- [Torsten Höltge](http://www.theauditorymisled.de/) - the original creator of Kimai
+- Torsten Höltge - the original creator of Kimai
 - [Severin Leonhardt](https://github.com/ServiusHack) - a core maintainer of Kimai for a long time
 - [Simon Schaufelberger](https://github.com/simonschaufi) - core developer for a very long time ... and on-going!
 - You can find a list of all [contributors](https://github.com/kimai/kimai/graphs/contributors) at GitHub
-- Kimai v1 was also highly influenced by Oleg Britvin, Martin Klemkow, Vasilis van Gemert, Maximilian Kern, Enrico Ties, Thomas Wensing, John Resig, Kelvin Luck, Urs Gerig, Willem van Gemert, Torben Boe and HamBug Studios, Klaus Franken, Chris (Urban Willi), Andreas Berndt, Niels Hoffmann, Günter Hengsbach, Paul Brand, Joaquín G. de la Zerda, Allesandro Bertoldo, José Ricardo Cardoso, RRZE 
+- Kimai v1 was also highly influenced by Oleg Britvin, Martin Klemkow, Vasilis van Gemert, Maximilian Kern, Enrico Ties, Thomas Wensing, Kelvin Luck, Urs Gerig, Willem van Gemert, Torben Boe and HamBug Studios, Klaus Franken, Chris (Urban Willi), Andreas Berndt, Niels Hoffmann, Günter Hengsbach, Paul Brand, Joaquín G. de la Zerda, Allesandro Bertoldo, José Ricardo Cardoso, RRZE 
 
 ## Credits
 
