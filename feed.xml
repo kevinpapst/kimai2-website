@@ -25,9 +25,9 @@ redirect_from:
         <description>Kimai - an open source time tracking software for freelancer and agencies</description>
         <image>
             <description>Kimai logo</description>
-            <url>http://www.kimai.org/assets/clocklogo.jpg</url>
+            <url>https://www.kimai.org/assets/clocklogo.jpg</url>
             <title>Kimai - Open Source Time-Tracking</title>
-            <link>http://www.kimai.org/</link>
+            <link>https://www.kimai.org/</link>
             <width>184</width>
             <height>184</height>
         </image>
@@ -44,12 +44,12 @@ redirect_from:
                 {% for cat in post.categories %}
                 <category>{{ cat | xml_escape }}</category>
                 {% endfor %}
-                <guid isPermaLink="true">http://www.kimai.org{{ post.url }}</guid>
+                <guid isPermaLink="true">https://www.kimai.org{{ post.url }}</guid>
                 <description>
                     <![CDATA[
                         {{ post.excerpt }}
                         ...
-                        <a href="http://www.kimai.org{{ post.url }}">read more</a>
+                        <a href="https://www.kimai.org{{ post.url }}">read more</a>
                     ]]>
                 </description>
             </item>
