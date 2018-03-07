@@ -54,15 +54,19 @@ Server requirements for Kimai v1 are:
 * [Invoices](invoices/)
 * [Rates](rates/)
 * [Fees](fees/)
+
+### Kimai setup
+
 * [Administration](administration/)
+* [Authenticator](authenticator/)
 * [Kimai mobile](kimai-mobile/)
+* [Email](email/)
 
 ### Developer
 
 * [Developer](developer/)
 * [Translations](translations/)
 * [Invoice templates](invoice-templates/)
-* [Authenticator](authenticator/)
 * [Extensions](extensions/)
 * [Team stuff](team/)
 
