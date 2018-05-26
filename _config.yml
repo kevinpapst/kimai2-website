@@ -39,7 +39,7 @@ phone:              not available
 email:              info@keleo.de
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
