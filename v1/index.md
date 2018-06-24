@@ -27,7 +27,7 @@ sitemap:
 ## Download
 
 <ul class="actions">
-    <li><a href="{{ site.stable_url }}" class="button special icon fa-download">Stable - 1.1.0</a></li>
+    <li><a href="{{ site.stable_url }}" class="button special icon fa-download">Stable - 1.3.1</a></li>
     <li><a href="{{ site.repo_url }}/zipball/develop" class="button icon fa-download">Development</a></li>
     <li><a href="https://github.com/kimai/manuals/" class="button icon fa-file-pdf-o">Documentation</a></li>
     <li><a href="apps/" class="button icon fa-archive">Applications</a></li>
