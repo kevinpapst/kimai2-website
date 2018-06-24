@@ -69,6 +69,7 @@ Server requirements for Kimai v1 are:
 * [Invoice templates](invoice-templates/)
 * [Extensions](extensions/)
 * [Team stuff](team/)
+* [Remote API](api/)
 
 ## Other downloads
 
