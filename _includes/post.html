@@ -6,7 +6,7 @@
 	{% if include.post.image != nil %}
 		<a href="{{ include.post.url | absolute_url }}" class="image fit"><img src="{{ include.post.image | absolute_url }}" alt="" /></a>
 	{% endif %}
-	<p>{{ include.post.excerpt }}</p>
+	{{ include.post.excerpt }}
 	<ul class="actions">
 		<li><a href="{{ include.post.url | absolute_url }}" class="button">Full Story</a></li>
 	</ul>

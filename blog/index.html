@@ -20,45 +20,42 @@ sitemap:
 		<footer>
 			<div class="pagination">
 				{% if paginator.previous_page %}
-				<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous">Previous</a>
+					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous">Previous</a>
 				{% else %}
-				<span class="previous">Previous</span>
+					<span class="previous">Previous</span>
 				{% endif %}
 
 				{% for page in (1..paginator.total_pages) %}
-				{% if page == paginator.page %}
-				<span class="page active">{{ page }}</span>
-				{% elsif page == 1 %}
-				<a href="/blog/" class="page">{{ page }}</a>
-				{% else %}
-				<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page">{{ page }}</a>
-				{% endif %}
+					{% if page == paginator.page %}
+						<span class="page active">{{ page }}</span>
+					{% elsif page == 1 %}
+						<a href="/blog/" class="page">{{ page }}</a>
+					{% else %}
+						<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page">{{ page }}</a>
+					{% endif %}
 				{% endfor %}
 
 				{% if paginator.next_page %}
-				<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next</a>
+					<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next</a>
 				{% else %}
-				<span class="next">Next</span>
+					<span class="next">Next</span>
 				{% endif %}
 			</div>
 		</footer>
 		{% endif %}
 	{% endcomment %}
-
 {% else %}
-
 	<section>
+		<h2>Older Posts</h2>
 		<table class="post-list">
-			<h2>Older Posts</h2>
 			{% for post in site.posts %}
-			{% if forloop.index > 6 %}
-			<tr>
-				<td><a href='{{ post.url }}'>{{ post.title }}</a></td>
-				<td class="post-date">{{ post.date | date_to_string }}</td>
-			</tr>
-			{% endif %}
+				{% if forloop.index > 6 %}
+					<tr>
+						<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+						<td class="post-date">{{ post.date | date_to_string }}</td>
+					</tr>
+				{% endif %}
 			{% endfor %}
 		</table>
 	</section>
-
 {% endif %}
