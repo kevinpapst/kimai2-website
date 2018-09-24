@@ -18,6 +18,10 @@ impression on how this software feels and which functionality it provides.
 If you encounter any problem, we would kindly ask you to send us a [message in our issue tracker]({{ site.kimai_v2_repo }}/issues).
 Please notice, that the Demo will be reinstalled on a regular schedule and all entered data will be removed.
 
+<p style="text-align:center">
+    <a href="{{ site.kimai_v2_demo }}" target="_blank" class="button icon fa-clock-o">Access demo</a>
+</p>
+
 ## Demo users
 
 The following user are available for your tests. Please create your own test user (see below) if these don't work:
@@ -31,13 +35,13 @@ The following user are available for your tests. Please create your own test use
 | susan_super | kitten | Super-Administrator | |
 | admin | password | Super-Administrator | no records |
 
-## Demo state & new test user
+## Demo re-installation
 
 The demo url is: [{{ site.kimai_v2_demo }}]({{ site.kimai_v2_demo }})
 
 <script src="https://demo-v2.kimai.org/status.php"></script>
 
-You can create your own [Kimai v2 demo login here]({{ site.kimai_v2_demo }}/status.php?mode=createUser).
+You can register your own account in the [demo login form]({{ site.kimai_v2_demo }}).
 
 ## Note
 
