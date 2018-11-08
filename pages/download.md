@@ -18,13 +18,13 @@ redirect_from:
 <ul class="actions">
     <li><a href="{{ site.kimai_v2_repo }}{{ site.kimai_v2_latest }}" class="button special icon fa-download">Latest stable</a></li>
     <li><a href="{{ site.kimai_v2_repo }}/zipball/master" class="button icon fa-download">Development</a></li>
-    <li><a href="/apps/" class="button icon fa-archive">Applications</a></li>
 </ul>
 
 Server requirements for Kimai are: 
 
 - PHP 7.1.3 or higher 
 - one of the PHP extensions `PDO-SQLite` or `PDO-MySQL`
+- the PHP extensions `intl` and `zip` 
 
 If you are unsure, you can test your servers compatibility with the [Symfony requirements-checker](http://symfony.com/doc/current/reference/requirements.html).
 
