@@ -5,7 +5,7 @@ date: "2018-11-18 22:00:00 +0200"
 author: kevinpapst
 ---
 
-# Release 0.6
+Version 0.6 was released, the main topic was "global activities" ... but many more improvements were added.
 
 [Full Changelog](https://github.com/kevinpapst/kimai2/compare/0.5...0.6)
 
@@ -21,7 +21,6 @@ author: kevinpapst
 **Upgrade from 0.5:**
 
 Don't forget to execute the database migrations! Read more about upgrading Kimai in [UPGRADING](https://github.com/kevinpapst/kimai2/blob/master/UPGRADING.md).
-
 
 **Fixed bugs:**
 
