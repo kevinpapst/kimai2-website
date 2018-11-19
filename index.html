@@ -59,7 +59,8 @@ sitemap:
 						It is designed to hold lots of users, but you can also use it for a single user if you want to.
 					</p>
 					<p>
-						Kimai can be localized to any language, though we only ship three sets of languages files in the new version for now: English, German and Russian.
+						Kimai can be localized to any language and we ship the following sets of translations:
+						english, german, russian, italian, french, spanish, hungarian, arabic.
 						Feel free to send your self-made language files – we’re looking for translators and would appreciate your support!
 					</p>
 					<p>
@@ -87,8 +88,13 @@ sitemap:
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
 							</tr>
 							<tr>
+								<td>Mobile ready</td>
+								<td>The layout is fully responsive, based on bootstrap and made for desktop and mobile usage. Every user can configure the data columns that should be shown.</td>
+								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
+							</tr>
+							<tr>
 								<td>Print invoices</td>
-								<td>Different templates, calculator, invoice number generator and you can add your own templates</td>
+								<td>Different templates, calculator, invoice number generator and you can add your own templates, in the file formats: XLSX, ODS, CSV, DOCX</td>
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
 							</tr>
 							<tr>
@@ -103,7 +109,17 @@ sitemap:
 							</tr>
 							<tr>
 								<td>Manage activities</td>
-								<td>Activities are used to record timesheet entries. Manage activities for each project with order number, budget and visibility (for archiving)</td>
+								<td>Activities are used to record timesheet entries. Manage activities for each project with order number, budget and visibility (for archiving). Activities can be global, no more duplications necessary.</td>
+								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
+							</tr>
+							<tr>
+								<td>JSON API</td>
+								<td>Featuring a JSON API so external apps can be created to communicate with your favorite time-tracker!</td>
+								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
+							</tr>
+							<tr>
+								<td>Docker support</td>
+								<td>The release includes a docker image for development and we have a separate docker-compose setup for production</td>
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
 							</tr>
 							<tr>
@@ -117,8 +133,13 @@ sitemap:
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
 							</tr>
 							<tr>
-								<td>Round times</td>
-								<td>Global config for rounding of time-records, with different settings for each weekday: e.g. configure that Kimai always rounds up to 15 minutes on weekdays and 1 hour at weekends (can be deactivated)</td>
+								<td>Duration only</td>
+								<td>If your local laws require you to only show durations instead of start and end date-time, you can activate that mode globally</td>
+								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
+							</tr>
+							<tr>
+								<td>User registration</td>
+								<td>Kimai supports user self-registration with email activation and additionally passwort reset functionality</td>
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
 							</tr>
 							<tr>
@@ -132,8 +153,18 @@ sitemap:
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
 							</tr>
 							<tr>
+								<td>Export timesheets</td>
+								<td>User can be export their timesheets for keeping offline record of their worktime</td>
+								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
+							</tr>
+							<tr>
+								<td>Rate calculation</td>
+								<td>Rates can be calculated based on hourly and fixed amounts, configurable for customers, projects, activities and each timesheet record individually.</td>
+								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
+							</tr>
+							<tr>
 								<td>Multiple records</td>
-								<td>You can record as many times as you want in parallel, a limit can be configured</td>
+								<td>You can record as many times as you want in parallel, the limit can be configured</td>
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
 							</tr>
 							<tr>
@@ -157,6 +188,11 @@ sitemap:
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
 							</tr>
 							<tr>
+								<td>Migrate from v1</td>
+								<td>Data from Kimai v1 can be imported, for a seamless migration of your time-tracker (<a href="{{ site.kimai_v2_docu }}/migration_v1.md">read more</a>)</td>
+								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
+							</tr>
+							<tr>
 								<td>Extendable</td>
 								<td>Kimai v2 was built with extendability in mind, it is extendable with Symfony bundles and has <a href="{{ site.kimai_v2_docu }}/developers.md">many extension points</a></td>
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
@@ -168,7 +204,7 @@ sitemap:
 							</tr>
 							<tr>
 								<td>SQLite support</td>
-								<td>No database setup required, Kimai has SQLite support out-of-the-box. But you want can use MySQL/MariaDB as well.</td>
+								<td>No database setup required, Kimai has SQLite support out-of-the-box. And we support MySQL/MariaDB as well.</td>
 								<td style="text-align:center"><span class="icon alt fa-check-circle"></span></td>
 							</tr>
 							</tbody>
