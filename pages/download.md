@@ -42,8 +42,6 @@ It includes many of the features you see at the [demo site](/demo/), which are n
 
 Please help us, test it and [give us your feedback]({{ site.kimai_v2_repo }}/issues) if you find any problems.
 
-## Older downloads
+### Older downloads
 
-- Kimai v2 releases can be found at our [GitHub release page]({{ site.kimai_v2_repo }}/releases)
-- Kimai v1 releases can be found on the [release page]({{ site.repo_url }}/releases) of the v1 repository
-- And historical versions on the [archived download page](https://sourceforge.net/projects/kimai/files/) at Sourceforge
+All Kimai v2 releases can be found at our [GitHub release page]({{ site.kimai_v2_repo }}/releases).
