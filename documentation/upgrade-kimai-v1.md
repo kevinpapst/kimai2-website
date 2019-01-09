@@ -7,7 +7,7 @@ description: Upgrading your Kimai installation to Kimai 2 coming from v1
 ## Upgrade to Kimai 2 (from v1)
 
 *You have to install Kimai v2 first, please read the documentation at [GitHub]({{ site.kimai_v2_repo }}).
-We recommend installing it on the same server, as long as you can meet the PHP7 requirement.*
+You can install it on the same server, but remember that you have to meet the PHP7 requirement.*
 
 Before importing your data from a Kimai v1 installation, please read the following carefully:
 

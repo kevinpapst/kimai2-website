@@ -16,27 +16,36 @@ sitemap:
 
 <header class="major">
 	<h1>Kimai Support</h1>
-    <p>
-        Documentation, support information and other resources for Kimai
-    </p>
+    <p>Documentation, support information and other resources for Kimai</p>
 </header>
 
-- Create a new ticket in our [support, bug and issue tracker]({{ site.kimai_v2_repo }}/issues) 
+Need help? Create a new ticket in our [support, bug and issue tracker]({{ site.kimai_v2_repo }}/issues)!
 
-### Kimai v1
-
-If you are still a user of Kimai v1, please consider [upgrading to Kimai v2](upgrade-kimai-v1/) soon. Meanwhile, take a look at our page dedicated to [Kimai v1](/v1/).
+> If you are still a user of Kimai v1, please consider [upgrading to Kimai v2](upgrade-kimai-v1/) soon. Meanwhile, take a look at our page dedicated to [Kimai v1](/v1/).
 
 ## Kimai Documentation
 
-Welcome to the documentation for the Kimai time-tracking application.
+Welcome to the documentation for the Kimai time-tracking application. All links will be opened at GitHub. as the documentation is 
 
-* [Installation]({{site.kimai_v2_repo}})
-* [Configurations]({{site.kimai_v2_docu}}/configurations.md)
-* [User and Security]({{site.kimai_v2_docu}}/users.md)
+### User manual
 
-### Developer
+- [Invoices]({{site.kimai_v2_docu}}/invoices.md) - export your data to different formats with customizable templates
+- [Timesheets]({{site.kimai_v2_docu}}/timesheet.md) - information about timesheets
+- [User and Security]({{site.kimai_v2_docu}}/users.md) - docu for user and security topics, like authentication, registration and roles
 
-* [Developer]({{site.kimai_v2_docu}}/developers.md)
-* [Demo invoice extension](https://github.com/kevinpapst/kimai2-invoice)
-* [Extensions repository](https://github.com/kimai/recipes)
+### Admins and Developers
+  
+- [Configurations]({{site.kimai_v2_docu}}/configurations.md) - intro into the global application configs
+    - [Calendar]({{site.kimai_v2_docu}}/calendar.md) - the Timesheet calendar view
+    - [Dashboard & widgets]({{site.kimai_v2_docu}}/dashboard.md) - how to configure widgets and dashboard sections
+    - [Emails]({{site.kimai_v2_docu}}/emails.md) - transport configuration and handling of emails
+    - [Permissions]({{site.kimai_v2_docu}}/permissions.md) - flexible and configurable ROLE based permission system 
+- [Developer]({{site.kimai_v2_docu}}/developers.md) - docs about extending Kimai's feature set  
+    - [API]({{site.kimai_v2_docu}}/developers_api.md) - how to use the JSON API 
+    - [Theme settings]({{site.kimai_v2_docu}}/theme.md) - theme related settings
+- [Installation]({{site.kimai_v2_docu}}/installation.md) - instructions about several installation methods
+    - [Update Kimai]({{site.kimai_v2_docu}}/updates.md) - updating an existing Kimai 2 installation to the latest version
+    - [Docker]({{site.kimai_v2_docu}}/docker.md) - using the built-in Dockerfile for development
+    - [Importing data]({{site.kimai_v2_docu}}/migration_v1.md) - how to import your timesheets from Kimai v1
+- [Translations]({{site.kimai_v2_docu}}/translations.md) - all about languages and translations
+- [FAQ]({{site.kimai_v2_docu}}/faq.md) - some answers to frequently asked questions 
