@@ -3,10 +3,6 @@ layout: page
 title: About Kimai - the time-tracking app
 description: Read about Kimai, what it is and about its history of time-tracking. Donate to Kimai and find out about its developer.
 permalink: /about/
-redirect_from:
-  - /donate/
-  - /en/donate.html
-  - /spenden.html
 sitemap:
     priority: 0.7
     lastmod: 2018-03-03
@@ -39,45 +35,9 @@ So be our guest and test Kimai online with our [demo installation](/demo/). If y
 
 And last but not least - probably the most important fact: Kimai is open-source, you can download it for free and you will never be charged a license fee for any future update.
 
-## Donations
-
-Developing a free software like Kimai takes a lot of time and effort. 
-If you like Kimai, if you use it on a daily basis or administrate Kimai in your company, please consider to donate and support further development.
-
-<div class="box">
-    <div class="row 50% uniform">
-        <div class="6u 12u$(small)">
-            <h3>Kevin</h3>
-            <span class="image left"><img src="https://avatars1.githubusercontent.com/u/533162?s=460&v=4" alt="" /></span>
-            Project maintainer and core developer <a href="/blog/2009/the-condemned-live-longer/">since 2009</a>.
-            Fully focussed on making Kimai v2 a success. Ping him <a href="{{ site.kimai_v2_repo }}/issues">at GitHub</a> for any question.
-            
-            <ul class="actions">
-                <li><a href="https://www.paypal.me/kevinpapst" target="_blank" class="button icon fa-paypal">Donate with PayPal</a></li>
-            </ul>
-
-            {% comment %}
-            <a href="http://www.amazon.de/wishlist/2CCJSMUYFLD6T/">
-                <img src="{{ '/images/amazon_whishlist.gif' | absolute_url }}" alt="Amazon Wishlist" />
-            </a>
-            {% endcomment %}
-        </div>
-        <div class="6u$ 12u$(small)">
-            <h3>Simon</h3>
-            <span class="image left"><img src="https://avatars1.githubusercontent.com/u/941794?s=460&v=4" alt="" /></span>
-            Joined the Kimai core team in 2014. Takes care of updating Kimai v1 and can be hired to built custom extensions. 
-
-            <ul class="actions">
-                <li><a href="https://www.paypal.me/simonschaufi" target="_blank" class="button icon fa-paypal">Donate with PayPal</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-Your donation goes directly into supporting the project. We are a couple of professionals dedicated to Kimai and with a heart for Open Source Software.
-Most importantly, by helping support the development of Kimai you are contributing to an effort that makes your life easier. Now isn't that sweet?
-
-Thank you for using Kimai and supporting the development!
+<ul class="actions">
+    <li>Read what others have to say about us: <a href="/testimonials/" class="button icon fa-comment">Testimonials</a></li>
+</ul>
 
 ## History of Kimai
 
