@@ -28,10 +28,16 @@
 							{% endif %}
 						</span>
 						<h1>{{page.title}}</h1>
-						<p>{{page.excerpt}}</p>
+						{{page.excerpt}}
 					</header>
 					<div class="image main"><img src="{{page.image}}" alt=""></div>
-					<p>{{content}}</p>
+					<div>
+						{% if page.excerpt != nil %}
+							{{ content | remove_first:page.excerpt }}
+						{% else %}
+							{{ content }}
+						{% endif %}
+					</div>
 				</section>
 
 				{% include bottom-links.html %}
