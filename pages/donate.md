@@ -29,7 +29,7 @@ If you like Kimai, if you use it on a daily basis or administrate Kimai in your 
             <h3>Kevin</h3>
             <span class="image left"><img src="https://avatars1.githubusercontent.com/u/533162?s=460&v=4" alt="" /></span>
             Project maintainer and core developer <a href="/blog/2009/the-condemned-live-longer/">since 2009</a>.
-            Fully focussed on making Kimai v2 a success. Ping him <a href="{{ site.kimai_v2_repo }}/issues">at GitHub</a> for any question.
+            Fully focussed on making <strong>Kimai v2</strong> a success. Ping him <a href="{{ site.kimai_v2_repo }}/issues">at GitHub</a> for any question.
             
             <ul class="actions">
                 <li><a href="https://www.paypal.me/kevinpapst" target="_blank" class="button icon fa-paypal">Donate with PayPal</a></li>
@@ -44,7 +44,7 @@ If you like Kimai, if you use it on a daily basis or administrate Kimai in your 
         <div class="6u$ 12u$(small)">
             <h3>Simon</h3>
             <span class="image left"><img src="https://avatars1.githubusercontent.com/u/941794?s=460&v=4" alt="" /></span>
-            Joined the Kimai core team in 2014. Takes care of Kimai v1 and can be hired to built custom extensions. 
+            Joined the Kimai core team in 2014. Takes care of <a href="/v1">Kimai v1</a> and can be hired to built custom extensions. 
 
             <ul class="actions">
                 <li><a href="https://www.paypal.me/simonschaufi" target="_blank" class="button icon fa-paypal">Donate with PayPal</a></li>

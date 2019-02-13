@@ -14,23 +14,15 @@ sitemap:
 	<h1>Kimai v1</h1>
     <p>
         We expect <b>Kimai v2</b> to be in a stable feature state by mid of 2019 and by then the support for v1 will slowly expire.    
-        As v1 is still widely used, we created this page as backup and your guide in the upgrade process. 
-        <br/>
-        Please consider <a href="/documentation/upgrade-kimai-v1/">upgrading as soon as possible</a>.
+        As v1 is still widely used, we created this page as backup and your guide in the process 
+        <a href="/documentation/upgrade-kimai-v1/"> of upgrading to v2</a>. 
     </p>
 </header>
 
-If you find yourself testing v2 and missing an important feature, please contact us. 
-
-- Find Kimai v1 sources at [GitHub]({{ site.repo_url }})
-- Create a new ticket in our [support, bug and issue tracker]({{ site.issues_url }}) 
-- You can try our [Kimai v1 demo](demo.html) live
-
-## Download
-
 <ul class="actions">
-    <li><a href="{{ site.stable_url }}" class="button special icon fa-download">Stable - 1.3.1</a></li>
-    <li><a href="{{ site.repo_url }}/zipball/develop" class="button icon fa-download">Development</a></li>
+    <li><a href="{{ site.stable_url }}" class="button special icon fa-download">Download</a></li>
+    <li><a href="{{ site.repo_url }}" class="button icon fa-github">GitHub</a></li>
+    <li><a href="demo.html" class="button icon fa-desktop">Demo</a></li>
     <li><a href="https://github.com/kimai/manuals/" class="button icon fa-file-pdf-o">Documentation</a></li>
     <li><a href="apps/" class="button icon fa-archive">Applications</a></li>
 </ul>

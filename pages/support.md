@@ -19,13 +19,14 @@ sitemap:
     <p>Documentation, support information and other resources for Kimai</p>
 </header>
 
-Need help? Create a new ticket in our [support, bug and issue tracker]({{ site.kimai_v2_repo }}/issues)!
+Need help? Create a new ticket in our [support, bug and issue tracker]({{ site.kimai_v2_repo }}/issues).
 
 > If you are still a user of Kimai v1, please consider [upgrading to Kimai v2](upgrade-kimai-v1/) soon. Meanwhile, take a look at our page dedicated to [Kimai v1](/v1/).
 
 ## Kimai Documentation
 
-Welcome to the documentation for the Kimai time-tracking application. All links will be opened at GitHub. as the documentation is 
+Welcome to the documentation for the Kimai time-tracking application. All links will be opened at GitHub, 
+as the documentation is managed within Kimai directly and released version specific.  
 
 ### User manual
 

@@ -24,7 +24,7 @@ Server requirements for Kimai are:
 
 - PHP 7.1.3 or higher 
 - one of the PHP extensions `PDO-SQLite` or `PDO-MySQL`
-- the PHP extensions `intl` and `zip` 
+- the PHP extensions `mbstring`, `gd`, `intl`, `xml` and `zip` 
 
 If you are unsure, you can test your servers compatibility with the [Symfony requirements-checker](http://symfony.com/doc/current/reference/requirements.html).
 
