@@ -9,17 +9,35 @@ baseurl:            "" # the subpath of your site, e.g. /blog
 url:                "https://v2.kimai.org"
 bing-id:            "874E17F27A8EABE9DDAED762FC498BC4"
 
+collections:
+  documentation:
+    output: true
+    permalink: /:collection/:name.html
+
+  v1:
+    output: true
+    permalink: /:collection/:name.html
+
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:year/:title/"
-    layout: post
-    author: kevinpapst
+  - scope:
+      path: ''
+      type: v1
+    values:
+      layout: v1
+  - scope:
+      path: ''
+      type: documentation
+    values:
+      layout: documentation
+  - scope:
+      path: ''
+      type: posts
+    values:
+      permalink: "/blog/:year/:title/"
+      layout: post
+      author: kevinpapst
 
 # Jekyll
-permalink:          /blog/:year/:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -28,15 +46,15 @@ kramdown:
   entity_output:    as_char
   toc_levels:       1..6
   enable_coderay:   false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: ''
+    span:
+      line_numbers: false
 mathjax:            true
 sass:
   sass_dir:         assets/sass
   style:            compressed
-
-# personal
-location:           Berlin, Germany
-phone:              not available
-email:              info@keleo.de
 
 # Gems
 plugins:
@@ -44,12 +62,32 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
+  - jekyll-toc
+
+toc:
+  min_level: 2
+  max_level: 3
 
 jekyll-mentions:
     base_url: https://github.com
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old, .gitignore, .git, .idea, _includes]
+jekyll_tidy:
+  compress_html: false
+  ignore_env: development
+
+base_color: '#467fcf'
+github_url: https://github.com/kevinpapst/kimai2
+github_page_url: https://github.com/kevinpapst/kimai2-website
+
+author:
+   name: Kevin Papst
+   url: https://www.kevinpapst.de
+
+docs-menu:
+  - title: Getting started
+    pages: [index]
+  - title: Components
+    pages: [alerts, buttons, tags, typography]
 
 # Kimai exclusive
 use_pagination: false
@@ -72,3 +110,96 @@ issues_url: https://github.com/kimai/kimai/issues
 stable_url: https://github.com/kimai/kimai/releases/download/1.3.1/kimai_1.3.1.zip
 forum_url: http://forum.kimai.org/
 demo_url: https://demo.kimai.org
+
+# Exclude list
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - _site
+  - src
+  - vendor
+  - CNAME
+  - LICENSE
+  - Rakefile
+  - old
+  - .gitignore
+  - .git
+  - .idea
+  - _includes
+  - .DS_Store
+  - .sass-cache/
+  - assets/scss/*
+
+colors:
+  blue:
+    hex: '#467fcf'
+    name: Blue
+  azure:
+    hex: '#45aaf2'
+    name: Azure
+  indigo:
+    hex: '#6574cd'
+    name: Indigo
+  purple:
+    hex: '#a55eea'
+    name: Purple
+  pink:
+    hex: '#f66d9b'
+    name: Pink
+  red:
+    hex: '#e74c3c'
+    name: Red
+  orange:
+    hex: '#fd9644'
+    name: Orange
+  yellow:
+    hex: '#f1c40f'
+    name: Yellow
+  lime:
+    hex: '#7bd235'
+    name: Lime
+  green:
+    hex: '#5eba00'
+    name: Green
+  teal:
+    hex: '#2bcbba'
+    name: Teal
+  cyan:
+    hex: '#17a2b8'
+    name: Cyan
+  gray:
+    hex: '#868e96'
+    name: Gray
+  gray-dark:
+    hex: '#343a40'
+    name: Dark gray
+
+theme-colors:
+  primary:
+    hex: '#467fcf'
+    name: Primary
+  secondary:
+    hex: '#868e96'
+    name: Secondary
+  success:
+    hex: '#38c172'
+    name: Success
+  info:
+    hex: '#17a2b8'
+    name: Info
+  warning:
+    hex: '#f8b700'
+    name: Warning
+  danger:
+    hex: '#f90049'
+    name: Danger
+#  light:
+#    hex: '#f8f9fa'
+#    name: Light
+#  dark:
+#    hex: '#343a40'
+#    name: Dark

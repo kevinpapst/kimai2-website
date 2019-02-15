@@ -1,0 +1,4 @@
+<div class="alert {% if include.icon %}alert-icon {% endif %}alert-primary" role="alert">
+	{% if include.icon %}<i class="{{ include.icon }}" aria-hidden="true"></i>{% endif %}
+	{{ include.alert }}
+</div>

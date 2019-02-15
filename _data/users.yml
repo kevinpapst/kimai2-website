@@ -1,0 +1,46 @@
+---
+kevinpapst:
+  name: Kevin
+  surname:
+  username: kevinpapst
+  photo: https://avatars1.githubusercontent.com/u/533162?s=460&v=4
+  profile: https://github.com/kevinpapst
+  intro: 'Project maintainer and core developer <a href="/blog/2009/the-condemned-live-longer/">since 2009</a>. Fully focussed on making <strong>Kimai v2</strong> a success.'
+  paypal: https://www.paypal.me/kevinpapst
+
+simonschaufi:
+  name: Simon
+  surname:
+  username: simonschaufi
+  photo: https://avatars1.githubusercontent.com/u/941794?s=460&v=4
+  profile: https://github.com/simonschaufi
+  intro: 'Joined the Kimai core team in 2014. Takes care of <a href="/v1/">Kimai v1</a> and can be hired to built custom extensions.'
+  paypal: https://www.paypal.me/simonschaufi
+
+skilleven:
+  name: Torsten
+  surname:
+  username: skilleven
+  photo: https://avatars2.githubusercontent.com/u/11266793?s=460&v=4
+  profile: https://github.com/skilleven
+
+beny:
+  name: Beny
+  surname: Walujo
+  username: beny
+  photo:
+  profile: "#"
+
+vasilis:
+  name: Vasilis
+  surname:
+  username: vasilis
+  photo:
+  profile: "#"
+
+jk:
+  name: jk
+  surname:
+  username: jk
+  photo:
+  profile: "#"
