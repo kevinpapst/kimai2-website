@@ -33,7 +33,7 @@ A development version is the latest package we are currently working on. It migh
 
 If you are an experienced user of Kimai and have the resources to help us with testing or just like to play with brand new features,
 you can [download the latest development version]({{ site.kimai_v2_repo }}/zipball/master).
-It includes many of the features you see at the [demo site]({% link demo.md %}), which are not yet available in a stable release.
+It includes many of the features you see at the [demo site]({% link _pages/demo.md %}), which are not yet available in a stable release.
 
 Please help us, test it and [give us your feedback]({{ site.kimai_v2_repo }}/issues) if you find any problems.
 

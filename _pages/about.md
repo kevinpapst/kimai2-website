@@ -30,11 +30,11 @@ extension points for your developers.
     
 Now, we could write so much more about its features and the benefits it will bring to you - whether you are a freelancer, 
 a small organization or a company with hundreds of employees - but we think, that giving you the option to test it directly is even better than a thousand words from us:
-So be our guest and test Kimai online with our [demo installation]({% link demo.md %}). If you are a friend of hard facts, we also have a compiled [feature list]({% link index.html %}).
+So be our guest and test Kimai online with our [demo installation]({% link _pages/demo.md %}). If you are a friend of hard facts, we also have a compiled [feature list]({% link _pages/index.html %}).
 
 And last but not least - probably the most important fact: Kimai is open-source, you can download it for free and you will never be charged a license fee for any future update.
 
-<a href="{% link testimonials.md %}" class="btn btn-primary"><i class="far fa-comments"></i> Testimonials</a>
+<a href="{% link _pages/testimonials.md %}" class="btn btn-primary"><i class="far fa-comments"></i> Testimonials</a>
 
 ## History of Kimai
 

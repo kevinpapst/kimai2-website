@@ -16,7 +16,7 @@ A very simple mobile optimized interface of Kimai. It lets you start and stop yo
 
 It is built with jQuery Mobile support and works as a developer demonstration for the Kimai Remote API.
 
-<a href="/v1/kimai-mobile/" class="btn btn-primary">Website</a>
+<a href="{% link _v1/kimai-mobile.md %}" class="btn btn-primary">Website</a>
 <a href="https://github.com/kimai/kimai-mobile" class="btn btn-primary">GitHub</a>
 
 * * *

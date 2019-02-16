@@ -1,13 +1,13 @@
 <div class="header py-4">
 	<div class="container">
 		<div class="d-flex">
-			<a class="header-brand" href="/">
+			<a class="header-brand" href="{% link _pages/index.html %}">
 				<img src="{{ '/assets/icon/apple-touch-icon.png' | absolute_url }}" class="header-brand-img" alt="Kimai logo"> Kimai 2 - time-tracking
 			</a>
 
 			<div class="d-flex order-lg-2 ml-auto">
 				<div class="nav-item d-none d-md-flex">
-					<a href="{% link download.md %}" class="btn btn-sm btn-outline-danger">Download</a>
+					<a href="{% link _pages/download.md %}" class="btn btn-sm btn-outline-danger">Download</a>
 				</div>
 				{% comment %}
 							<div class="dropdown d-none d-md-flex">

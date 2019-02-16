@@ -8,7 +8,7 @@ description: Test Kimai v1 online in our demo installation
     <p>
         <b>ATTENTION:</b> This is the demo of the outdated Kimai v1.
         <br>
-        We released Kimai v2 in the meantime and would invite you to head over to our <a href="/demo/">demo page</a>.  
+        We released Kimai v2 in the meantime and would invite you to head over to our <a href="{% link _pages/demo.md %}">demo page</a>.  
     </p>
 </header>
 

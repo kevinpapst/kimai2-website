@@ -13,10 +13,11 @@ collections:
   documentation:
     output: true
     permalink: /:collection/:name.html
-
   v1:
     output: true
     permalink: /:collection/:name.html
+  pages:
+    output: true
 
 defaults:
   - scope:
@@ -36,6 +37,10 @@ defaults:
       permalink: "/blog/:year/:title/"
       layout: post
       author: kevinpapst
+  - scope:
+      path: ""
+    values:
+      layout: "page"
 
 # Jekyll
 markdown:           kramdown
