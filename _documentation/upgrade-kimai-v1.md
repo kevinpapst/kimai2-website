@@ -1,11 +1,9 @@
 ---
-title: Upgrade to Kimai v2
+title: Upgrade to Kimai 2 (from v1)
 description: Upgrading your Kimai installation to Kimai 2 coming from v1
 redirect_from:
-- /v1/upgrade-v2.html
+  - /v1/upgrade-v2.html
 ---
-
-## Upgrade to Kimai 2 (from v1)
 
 *You have to install Kimai v2 first, please read the documentation at [GitHub]({{ site.kimai_v2_repo }}).
 You can install it on the same server, but remember that you have to meet the PHP7 requirement.*

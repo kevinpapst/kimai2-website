@@ -47,7 +47,7 @@ Here you can add, change and delete tasks. A task has no relation to a customer 
 Here you can add, change and delete users. 
 Users work with the Kimai application and can add, change or delete data like their own time records. They can edit also other data like customers, projects e.g. depending on their roles and rights. The roles and rights are set using global roles, membership roles and groups.
 
-![](/images/manual/user-list.jpg)
+![]({% link /images/manual/user-list.jpg %})
 
 ### Add Users
 
@@ -58,7 +58,7 @@ Add a name for the new user and press 'Add user'.
 To let the user reset the password, a email adresse is necessary.
 The Nickname is used 
 
-![](/images/manual/user-general.jpg)
+![]({% link /images/manual/user-general.jpg %})
 
 A user can only have one global role at a time but can belong to unlimited groups. 
 
@@ -66,7 +66,7 @@ If the password field is empty when pressing OK, the password will not change. I
 
 Edit user > Groups
 
-![](/images/manual/user-groups.jpg)
+![]({% link /images/manual/user-groups.jpg %})
 
 If you enter a valid email address you can send emails from your local account by clicking the mailer symbol.
 

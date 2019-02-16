@@ -3,6 +3,6 @@
 - title: Using Kimai
   pages: [administration, timesheet, invoices, rates, export, budget, expenses]
 - title: Setup & Configuration
-  pages: [authenticator, email , apps, kimai-mobile]
+  pages: [authenticator, email, apps, kimai-mobile]
 - title: Developer
   pages: [developer, translations, invoice-templates, extensions, api, team]

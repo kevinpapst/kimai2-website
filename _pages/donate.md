@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Donate to Kimai
+title: Donations
 description: Donate to Kimai and become a time-tracking sponsor
 permalink: /donate/
 redirect_from:

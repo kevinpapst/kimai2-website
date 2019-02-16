@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Download Kimai 2
+title: Download
 description: Download - Kimai Time-Tracking versions
 permalink: /download/
 redirect_from:
@@ -8,7 +8,7 @@ redirect_from:
   - /download.html
 ---
 
-# Download
+# Download Kimai 2
 
 {% include alert.html icon="fas fa-download" alert="Get your copy of the Kimai time-tracking app for free: unlimited users, no license fees!" %}
 
@@ -33,7 +33,7 @@ A development version is the latest package we are currently working on. It migh
 
 If you are an experienced user of Kimai and have the resources to help us with testing or just like to play with brand new features,
 you can [download the latest development version]({{ site.kimai_v2_repo }}/zipball/master).
-It includes many of the features you see at the [demo site](/demo/), which are not yet available in a stable release.
+It includes many of the features you see at the [demo site]({% link demo.md %}), which are not yet available in a stable release.
 
 Please help us, test it and [give us your feedback]({{ site.kimai_v2_repo }}/issues) if you find any problems.
 

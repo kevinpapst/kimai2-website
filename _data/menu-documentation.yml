@@ -1,4 +1,10 @@
-- title: Getting started
-  pages: [index]
-- title: Components
+- title: Administration
   pages: [upgrade-kimai-v1]
+- title: User manual
+  pages: []
+- title: Configurations
+  pages: []
+- title: Installation
+  pages: []
+- title: Other
+  pages: []

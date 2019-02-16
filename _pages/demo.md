@@ -1,15 +1,14 @@
 ---
 layout: page
-title: Test Kimai 2
+title: Demo
 description: Test and evaluate our time-tracker Kimai online, directly from our demo page.
-subtitle: "Find out how time-tracking works in our demo installation" 
 permalink: /demo/
 redirect_from:
   - /en/demo.html
   - /demo.html
 ---
 
-# Demo
+# Test Kimai 2
 
 {% include alert.html icon="fas fa-desktop" alert='Try out the Kimai time-tracking demo and we promise: your next step will be the download!' %}
 
@@ -18,7 +17,7 @@ impression on how this software feels and which functionality it provides.
 If you encounter any problem, we would kindly ask you to send us a [message in our issue tracker]({{ site.kimai_v2_repo }}/issues).
 Please notice, that the Demo will be reinstalled on a regular schedule and all entered data will be removed.
 
-<p style="text-align:center">
+<p class="text-center">
     <a href="{{ site.kimai_v2_demo }}" target="_blank" class="btn btn-primary">Access demo</a>
 </p>
 

@@ -2,7 +2,8 @@
 title: Kimai 1 is tracking your times since 2007
 description: Kimai v1 resources - upgrade infos, documentation and links
 subtitle: "Oldie but goldie!"
-header: Kimai
+header: Kimai v1
+permalink: /v1/
 redirect_from:
   - faq.html
 sitemap:
@@ -13,7 +14,7 @@ sitemap:
 
 <a href="{{ site.stable_url }}" class="btn btn-primary"><i class="fas fa-download"></i> Download</a>
 <a href="{{ site.repo_url }}" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
-<a href="demo.html" class="btn btn-primary"><i class="fas fa-plane-departure"></i> Demo</a>
+<a href="demo.html" class="btn btn-primary"><i class="fas fa-desktop"></i> Demo</a>
 <a href="https://github.com/kimai/manuals/" class="btn btn-primary"><i class="fas fa-book"></i> Documentation</a>
 <a href="apps/" class="btn btn-primary"><i class="fas fa-cubes"></i> Applications</a>
 

@@ -7,12 +7,13 @@ sitemap:
     priority: 0.7
     lastmod: 2018-03-03
     changefreq: weekly
-subtitle: "Probably the <b>best</b> free and open source <b>time-tracking app</b> you will find ..." 
 ---
 
 # What is Kimai?
 
-![Kimai logo](/images/kimai_logo.png){:class="float-left" style="margin-right: 20px" }
+{% include alert.html icon="far fa-thumbs-up" alert='Probably <strong>the best free and open source time-tracking app</strong> you will find ...' %}
+
+![Kimai logo]({% link /images/kimai_logo.png %}){:class="float-right" style="margin-left: 20px" }
 
 Kimai is a time-tracking app with a long history. Its first version was released more than 10 years ago. Why do we mention that? 
 Because we have seen so many services come and go in the last decade - trust us when we say: we'll stick around. 
@@ -29,18 +30,18 @@ extension points for your developers.
     
 Now, we could write so much more about its features and the benefits it will bring to you - whether you are a freelancer, 
 a small organization or a company with hundreds of employees - but we think, that giving you the option to test it directly is even better than a thousand words from us:
-So be our guest and test Kimai online with our [demo installation](/demo/). If you are a friend of hard facts, we also have a compiled [feature list](/).
+So be our guest and test Kimai online with our [demo installation]({% link demo.md %}). If you are a friend of hard facts, we also have a compiled [feature list]({% link index.html %}).
 
 And last but not least - probably the most important fact: Kimai is open-source, you can download it for free and you will never be charged a license fee for any future update.
 
-<a href="/about/testimonials.html" class="btn btn-primary"><i class="far fa-comments"></i> Testimonials</a>
+<a href="{% link testimonials.md %}" class="btn btn-primary"><i class="far fa-comments"></i> Testimonials</a>
 
 ## History of Kimai
 
 Kimai has a long history and was way ahead of its time, when the team around Torsten Höltge started its development in 2006. 
 It had a responsive design (thanks to a lot of javascript magic) back in the time when that word wasn't even officially invented.
 
-He wanted to [shut it down](/blog/2009/bye-bye-folks/) due to personal/time limitations, when it was [taken over by Kevin](/blog/2009/the-condemned-live-longer/).
+He wanted to [shut it down]({% link _posts/2009-06-19-bye-bye-folks.md %}) due to personal/time limitations, when it was [taken over by Kevin]({% link _posts/2009-07-20-the-condemned-live-longer.md %}).
 With the help of other open source volunteers he was able to keep it alive and extend it for multiple years.
 
 In the meantime the PHP community made great steps forward and Kimai felt back, due to its technical history - built around a lot of single PHP scripts which all had to be public accessible.
@@ -59,8 +60,3 @@ There were way too many people to name them all, so this list is only a small co
 - [Simon Schaufelberger](https://github.com/simonschaufi) - core developer for a very long time ... and on-going!
 - You can find a list of all [contributors](https://github.com/kimai/kimai/graphs/contributors) at GitHub
 - Kimai v1 was also highly influenced by Oleg Britvin, Martin Klemkow, Vasilis van Gemert, Maximilian Kern, Enrico Ties, Thomas Wensing, Kelvin Luck, Urs Gerig, Willem van Gemert, Torben Boe and HamBug Studios, Klaus Franken, Chris (Urban Willi), Andreas Berndt, Niels Hoffmann, Günter Hengsbach, Paul Brand, Joaquín G. de la Zerda, Allesandro Bertoldo, José Ricardo Cardoso, RRZE 
-
-## Credits
-
-- Site is powered by [Jekyll](http://jekyllrb.com/)
-- using the [tabler](https://github.com/tabler/tabler) theme by @codecalm

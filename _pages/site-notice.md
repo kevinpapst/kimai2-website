@@ -10,8 +10,7 @@ redirect_from:
 
 ## Credits
 
-- Website created with [Jekyll](http://jekyllrb.com/)
-- Template by [Pixelarity](https://pixelarity.com/)
+- Site is powered by [Jekyll](http://jekyllrb.com/)
+- Using the [tabler](https://github.com/tabler/tabler) theme by @codecalm
 - Icons provided by the free Webfont [Font-Awesome](https://fontawesome.io/)
 - Font "SourceSansPro": [Copyright 2010, 2012, 2014 by Adobe Systems Incorporated](http://www.adobe.com/) with Reserved Font Name Source
-- Font "Merriweather": [Copyright 2016 The Merriweather Project Authors](https://github.com/EbenSorkin/Merriweather/) Reserved Font Name "Merriweather"

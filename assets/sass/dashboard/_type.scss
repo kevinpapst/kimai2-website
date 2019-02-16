@@ -27,9 +27,35 @@ blockquote {
 
 blockquote {
 	font-style: italic;
-	color: $text-muted-dark;
-	padding-left: 2rem;
-	border-left: 2px solid $border-color;
+	display: block;
+	border-width: 2px 0;
+	border-style: solid;
+	border-color: $border-color;
+	padding: 1.5em 0 0.5em;
+	margin: 1.5em 0 2.5em 0;
+	position: relative;
+
+	&:before {
+		content: '\201C';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #fff;
+		width: 3rem;
+		height: 4rem;
+		font: 6em/1.08em $font-family-base;
+		color: $text-muted-dark;
+		text-align: center;
+	}
+
+	&:after {
+		content: "\2013 \2003" attr(cite);
+		display: block;
+		text-align: right;
+		font-size: 0.875em;
+		color: $text-muted;
+	}
 
 	p {
 		margin-bottom: 1rem;
