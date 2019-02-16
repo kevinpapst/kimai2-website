@@ -18,6 +18,7 @@ collections:
     permalink: /:collection/:name.html
   pages:
     output: true
+    permalink: /:name.html
 
 defaults:
   - scope:
