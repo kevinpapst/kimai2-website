@@ -5,7 +5,7 @@ description: xxx
 
 1. It is important that you don't execute the [installation steps]({% link _documentation/installation.md %}) before or after your update
 2. Make sure that you have a working database backup before you start the update
-3. Read the [UPGRADING]({{ site.kimai_v2_file }}/UPGRADING.md) guide and the [release information]({{ site.kimai_v2_releases }}) to check if there are further steps required
+3. Read the [UPGRADING]({{ site.kimai_v2_file }}/UPGRADING.md) guide and the [release information]({{ site.kimai_v2_repo }}/releases) to check if there are further steps required
 
 ### Update process 
 

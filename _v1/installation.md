@@ -159,8 +159,13 @@ discrepancies.
 Extract the Kimai release zip/tarball into a server directory accessible from the outside and navigate to this location 
 using your browser. A step-by-step installation program is included with every new release of Kimai. Follow the 
 instructions of the installer and correct missing or incorrect permissions using your FTP or shell account. 
-If the step-by-step installer does not work, [please report this error]({{ site.issues_url }}).
+If the step-by-step installer does not work, [please report this error]({{ site.kimai_v1_repo }}/issues).
 
+## Installation with Softaculous
+
+Kimai v1 can be installed with theS oftaculous Auto-Installer.
+
+Get more information at [http://www.softaculous.com/softaculous/apps/others/Kimai](http://www.softaculous.com/softaculous/apps/others/Kimai)
 
 ## Installation FAQ
 

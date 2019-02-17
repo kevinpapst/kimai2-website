@@ -1,6 +1,8 @@
 ---
 title: Apps for Kimai v1
 description: Application to use Kimai on desktop and mobile
+redirect_from:
+  - /apps/
 ---
 
 Thanks to many great developer out there we have several external applications, which allow you to use Kimai on your Desktop and mobile device.
@@ -71,4 +73,4 @@ TimeTrapp supports:
 
 * * *
 
-Know more apps? Create a [new issue]({{ site.issues_url }}) and we will update this page.
+Know more apps? Create a [new issue]({{ site.kimai_v1_repo }}/issues) and we will update this page.

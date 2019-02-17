@@ -8,10 +8,10 @@ demo:
   icon: fas fa-desktop
   url: /demo/
 
-donate:
-  name: Donate
-  icon: far fa-heart
-  url: /donate/
+#donate:
+#  name: Donate
+#  icon: far fa-heart
+#  url: /donate/
 
 download:
   name: Download
@@ -23,12 +23,12 @@ news:
   icon: fas fa-newspaper
   url: /blog/
 
-kimai1:
-  name: Kimai v1
-  icon: fas fa-code-branch
-  url: /v1/
-
 docs:
   name: Documentation
   icon: fas fa-book
   url: /documentation/
+
+kimai1:
+  name: Kimai v1
+  icon: fas fa-code-branch
+  url: /v1/

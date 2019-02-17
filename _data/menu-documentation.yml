@@ -2,7 +2,7 @@
   pages: [installation, updates, docker, migration_v1]
 - title: User manual
   pages: [timesheet, invoices, users, customer, export]
-- title: Configurations
+- title: Configuration
   pages: [configurations, calendar, dashboard, emails, permissions]
 - title: Developer
   pages: [developers, developers_api, translations, theme]

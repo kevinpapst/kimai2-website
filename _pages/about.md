@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "About Kimai"
 description: What is behind the time-tracking app Kimai? Find out about it, its history and developer.
 permalink: /about/

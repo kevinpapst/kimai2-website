@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Site notice
 description: Site notice for www.kimai.org
 permalink: /site-notice/

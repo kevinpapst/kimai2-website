@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Testimonials
 description: Testimonials - User feedback about Kimai
 subtitle: Find out what others have to say about us

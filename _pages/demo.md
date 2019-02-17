@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Demo
 description: Test and evaluate our time-tracker Kimai online, directly from our demo page.
 permalink: /demo/
@@ -8,7 +7,7 @@ redirect_from:
   - /demo.html
 ---
 
-# Test Kimai 2
+# Test Kimai
 
 {% include alert.html icon="fas fa-desktop" alert='Try out the Kimai time-tracking demo and we promise: your next step will be the download!' %}
 

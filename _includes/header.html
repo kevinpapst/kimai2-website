@@ -2,12 +2,14 @@
 	<div class="container">
 		<div class="d-flex">
 			<a class="header-brand" href="{% link _pages/index.html %}">
-				<img src="{{ '/assets/icon/apple-touch-icon.png' | absolute_url }}" class="header-brand-img" alt="Kimai logo"> Kimai 2 - time-tracking
+				<img src="{{ '/assets/icon/apple-touch-icon.png' | absolute_url }}" class="header-brand-img" alt="Kimai logo"> Kimai 2 - time-tracker
 			</a>
 
 			<div class="d-flex order-lg-2 ml-auto">
 				<div class="nav-item d-none d-md-flex">
-					<a href="{% link _pages/download.md %}" class="btn btn-sm btn-outline-danger">Download</a>
+					<a href="{% link _pages/donate.md %}" title="Donate to Kimai" class="btn btn-icon btn-outline-info"><i class="fas fa-heart"></i></a>
+					&nbsp;
+					<a href="{% link _pages/download.md %}" title="Download Kimai" class="btn btn-icon btn-primary"><i class="fas fa-download"></i> Download</a>
 				</div>
 				{% comment %}
 							<div class="dropdown d-none d-md-flex">
@@ -45,7 +47,7 @@
 								<a href="#" class="nav-link pr-0 leading-none" data-toggle="dropdown">
 									<span class="avatar" style="background-image: url({{ site.base }}/{{ user.photo }})"></span>
 									<span class="ml-2 d-none d-lg-block">
-										<span class="text-default">{{ user.name }} {{ user.surname }}</span>
+										<span class="text-default">{{ user.name }}</span>
 										<small class="text-muted d-block mt-1">Administrator</small>
 									</span>
 								</a>

@@ -8,7 +8,7 @@ redirect_from:
   - /download.html
 ---
 
-# Download Kimai 2
+# Download Kimai
 
 {% include alert.html icon="fas fa-download" alert="Get your copy of the Kimai time-tracking app for free: unlimited users, no license fees!" %}
 
@@ -20,7 +20,7 @@ Server requirements for Kimai are:
 
 If you are unsure, you can test your servers compatibility with the [Symfony requirements-checker](http://symfony.com/doc/current/reference/requirements.html).
 
-<a href="{{ site.kimai_v2_repo }}{{ site.kimai_v2_latest }}" class="btn btn-primary"><i class="fas fa-download"></i> Latest stable</a>
+<a href="{{ site.kimai_v2_repo }}{{ site.kimai_v2_repo }}/releases" class="btn btn-primary"><i class="fas fa-download"></i> Latest stable</a>
 <a href="{{ site.kimai_v2_repo }}/zipball/master" class="btn btn-secondary"><i class="fas fa-download"></i> Development</a>
 
 ## Installation
