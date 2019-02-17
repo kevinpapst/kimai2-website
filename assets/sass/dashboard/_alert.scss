@@ -1,5 +1,8 @@
 .alert {
 	font-size: $font-size-base;
+	p {
+		margin: 0;
+	}
 }
 
 .alert-icon {

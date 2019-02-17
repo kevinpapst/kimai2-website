@@ -45,6 +45,6 @@ ant build
 
 Writing a new blog post is a simple as:
  
-- Fork the [website repo]({{ site.github_page_url }}) 
+- Fork the [website repo]({{ site.kimai_v2_website }}) 
 - Create a new .md file in the _posts directory
 - Send a pull request

@@ -25,7 +25,7 @@ If you are unsure, you can test your servers compatibility with the [Symfony req
 
 ## Installation
 
-Full installation instructions can be found in our [GitHub documentation]({{ site.kimai_v2_repo }}#installation).
+Full installation instructions can be found in our [documentation]({% link _documentation/installation.md %}).
 
 ## Development version
 
