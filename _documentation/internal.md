@@ -17,6 +17,6 @@ Documentation for project maintainer.
 - Create the release
 - Adjust Kimai website
   - Create a new version [announcement post]({{ site.kimai_v2_website }}), including the release notes
-  - Increase version number in `_config.yml`
+  - Increase version numbers in [download.md]({% link _pages/download.md %})
 - Post a new issue at [YunoHost tracker for Kimai 2](https://github.com/YunoHost-Apps/kimai2_ynh)
 - Post a new issue at [Docker for Kimai 2](https://github.com/tobybatch/kimai2)

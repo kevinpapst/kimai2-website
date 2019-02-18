@@ -1,12 +1,12 @@
 ---
 title: Timesheet
-description: The timesheet is your central point of truth for your time-tracking data in Kimai
+description: View and manage your time-tracking data in the timesheet view
 toc: true
 ---
 
 # Timesheet
 
-User manual on the timesheet tables and actions.
+User manual on the timesheet tables, actions and configuration.
 
 Kimai 2 provides also a [calendar view]({% link _documentation/calendar.md %}), which displays your timesheet entries in an easy readable format.
 

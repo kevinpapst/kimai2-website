@@ -1,6 +1,6 @@
 ---
 title: Translations
-description: i18n in Kimai, language specific configurations and the translation files.
+description: i18n, language specific configurations and the translation files
 ---
 
 Languages and translations in Kimai are completely configurable. 

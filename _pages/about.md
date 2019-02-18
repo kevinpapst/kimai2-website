@@ -56,5 +56,5 @@ There were way too many people to name them all, so this list is only a small co
 - Torsten Höltge - the inventor of Kimai 1
 - [Severin Leonhardt](https://github.com/ServiusHack) - a core maintainer of Kimai for a long time
 - [Simon Schaufelberger](https://github.com/simonschaufi) - core developer for a very long time ... and on-going!
-- You can find a list of all [contributors](https://github.com/kimai/kimai/graphs/contributors) at GitHub
+- You can find a list of all [contributors]({{ site.kimai_v1_repo }}/graphs/contributors) at GitHub
 - Kimai v1 was also highly influenced by Oleg Britvin, Martin Klemkow, Vasilis van Gemert, Maximilian Kern, Enrico Ties, Thomas Wensing, Kelvin Luck, Urs Gerig, Willem van Gemert, Torben Boe and HamBug Studios, Klaus Franken, Chris (Urban Willi), Andreas Berndt, Niels Hoffmann, Günter Hengsbach, Paul Brand, Joaquín G. de la Zerda, Allesandro Bertoldo, José Ricardo Cardoso, RRZE 

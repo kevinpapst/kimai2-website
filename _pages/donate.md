@@ -12,7 +12,7 @@ sitemap:
 
 # Support Kimai 
 
-{% include alert.html icon="far fa-smile" alert="By donating to Kimai or sponsoring its development you help us to improve your time-tracking experience!" %}
+{% include alert.html icon="far fa-smile" alert="By donating to Kimai and sponsoring the development you help us to improve your time-tracking experience!" %}
 
 Developing a free software like Kimai takes a lot of time and effort.
 If you like Kimai, if you use it on a daily basis or administrate Kimai in your company, please consider to donate and support further development.

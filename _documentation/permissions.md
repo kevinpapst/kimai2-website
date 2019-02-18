@@ -1,5 +1,6 @@
 ---
 title: Permissions
+description: Configure the permission system which is based on user roles 
 toc: true
 ---
 

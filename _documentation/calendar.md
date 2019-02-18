@@ -1,6 +1,6 @@
 ---
 title: Calendar
-description: Show your timesheet records in a calendar
+description: Manage your timesheet records in a calendar view
 toc: true
 ---
 

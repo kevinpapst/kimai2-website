@@ -1,6 +1,6 @@
 ---
 title: Invoices
-description: Create invoices for your customer directly in Kimai from timesheet data and output it in several formats 
+description: Create invoices directly within Kimai from timesheet data in several formats 
 toc: true
 ---
 

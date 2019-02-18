@@ -1,6 +1,5 @@
 ---
 title: Rates & Fees
-description: Documentation for Kimai Time-Tracking
 redirect_from:
   - /manual/rates.html
   - /manual/manual/rates.html

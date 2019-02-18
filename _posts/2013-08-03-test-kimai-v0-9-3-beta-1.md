@@ -39,9 +39,9 @@ Okay, finally we achieved something that we self did not expect any more ;-) a w
 
 ## Links
 
-Here is the release announcement at GitHub: [Release v0.9.3-beta.1](https://github.com/kimai/kimai/releases/tag/v0.9.3-beta.1)
+Here is the release announcement at GitHub: [Release v0.9.3-beta.1]({{ site.kimai_v1_repo }}/releases/tag/v0.9.3-beta.1)
 
-And here is the ZIP Download: [kimai_0.9.3.beta.zip](https://github.com/kimai/kimai/releases/download/v0.9.3-beta.1/kimai_0.9.3.beta.zip)
+And here is the ZIP Download: [kimai_0.9.3.beta.zip]({{ site.kimai_v1_repo }}/releases/download/v0.9.3-beta.1/kimai_0.9.3.beta.zip)
 
 Please post your feedback in [our issue tracker]({{ site.kimai_v1_repo }}/issues).
 

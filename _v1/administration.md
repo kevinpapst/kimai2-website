@@ -1,6 +1,5 @@
 ---
 title: Administration
-description: Documentation for Kimai Time-Tracking
 redirect_from:
   - /documentation/administration/
   - /documentation/manual/administration.html

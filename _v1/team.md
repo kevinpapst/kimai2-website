@@ -1,6 +1,5 @@
 ---
 title: "Team / Internal"
-description: Documentation for Kimai Time-Tracking
 redirect_from: 
   - /documentation/team/
 ---
@@ -10,7 +9,7 @@ if you are a end-user of the Kimai time-tracking application.
 
 ## Developing for Kimai
 
-Please read our [CONTRIBUTING GUIDELINES](https://github.com/kimai/kimai/blob/master/.github/CONTRIBUTING.md) directly at Github.
+Please read our [CONTRIBUTING GUIDELINES]({{ site.kimai_v1_repo }}/blob/master/.github/CONTRIBUTING.md) directly at Github.
 
 ## Creating a new release
 
@@ -27,7 +26,7 @@ For creating a new release, you need to have ant installed
 
 ```bash
 cd /tmp/
-git clone https://github.com/kimai/kimai.git kimai-master
+git clone {{ site.kimai_v1_repo }}.git kimai-master
 cd kimai-master
 git tag -a -f -m 'Tagged version x.x.x' x.x.x
 git push origin x.x.x
@@ -35,11 +34,11 @@ composer install --no-dev
 ant build
 ```
 
-- Now open GitHub, [create a new "Release"](https://github.com/kimai/kimai/releases) as Draft and upload the release ZIP from /tmp/kimai/kimai_xxx.zip to this draft
+- Now open GitHub, [create a new "Release"]({{ site.kimai_v1_repo }}/releases) as Draft and upload the release ZIP from /tmp/kimai/kimai_xxx.zip to this draft
 - Add one or two sentences and a link to this versions milestone with the "closed" filter
 - Publish the release draft
 - Publish a new blog post regarding this new release (see below)
-- Update [kimai.json](https://github.com/kimai/kimai/blob/master/kimai.json) and change the version number and news link, commit and push it to master (so the update check in Kimai administration will catch it as well)
+- Update [kimai.json]({{ site.kimai_v1_repo }}/blob/master/kimai.json) and change the version number and news link, commit and push it to master (so the update check in Kimai administration will catch it as well)
 - Edit the GitHub release and add a link to the blog post
 - Let the rest of the team know and spread the word (Twitter, Facebook ...)
 
