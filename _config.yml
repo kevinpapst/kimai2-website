@@ -6,7 +6,7 @@ locale:             en_US
 baseurl:            "" # the subpath of your site, e.g. /blog
 
 # jekyll-sitemap: base hostname & protocol for your site
-url:                "https://v2.kimai.org"
+url:                "https://www.kimai.org"
 bing-id:            "874E17F27A8EABE9DDAED762FC498BC4"
 
 collections:
