@@ -1,6 +1,6 @@
 ---
 title: Configurations
-description: Kimai configurations files and basic setup
+description: Kimai configurations files and basic setup, local overwrites and the cache
 toc: true
 ---
 

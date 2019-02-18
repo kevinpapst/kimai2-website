@@ -1,6 +1,6 @@
 ---
 title: Export
-description: Export your timesheet data with Kimai
+description: Export your timesheet data with Kimai into several different formats
 ---
 
 The export module allows you to export filtered timesheet data into several formats.

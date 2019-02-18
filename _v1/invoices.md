@@ -1,6 +1,5 @@
 ---
 title: Invoices
-description: Documentation for Kimai Time-Tracking
 redirect_from:
   - /documentation/invoices/
 ---

@@ -1,6 +1,5 @@
 ---
 title: Translations
-description: Documentation for Kimai Time-Tracking
 redirect_from:
   - /documentation/developer/translations.html
   - /documentation/translations/
@@ -35,4 +34,4 @@ If you want to improve an existing translation there are mainly two things you w
 
 ## Publishing a translation
 
-You can either sent the files in via a [new issue](https://github.com/kimai/kimai/issues) or (what would make look even cooler) you sent us a [Pull request](https://github.com/kimai/kimai/pulls).
+You can either sent the files in via a [new issue]({{ site.kimai_v1_repo }}/issues) or (what would make look even cooler) you sent us a [Pull request]({{ site.kimai_v1_repo }}/pulls).

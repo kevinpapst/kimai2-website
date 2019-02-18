@@ -1,6 +1,6 @@
 ---
 title: Users
-description: Documentation about users, roles and the authentication, registration and security system in Kimai
+description: User, roles and the authentication, registration and security system in Kimai
 toc: true
 ---
 

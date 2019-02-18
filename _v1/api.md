@@ -1,6 +1,5 @@
 ---
 title: Kimai Remote Api
-description: Documentation for Kimai Time-Tracking
 redirect_from:
   - /documentation/api/
 ---
@@ -8,15 +7,15 @@ redirect_from:
 This part of the documentation is dedicated for developers who want to make 3rd party applications that use Kimai as a backend. 
 The current version contains two ways to access the API:
  
-- JSON (based on json-rpc 2.0): available at [/core/json.php](https://github.com/kimai/kimai/blob/master/core/json.php), by requesting the page without passing parameter you will get the full list of available methods
-- SOAP: available at [/core/soap.php](https://github.com/kimai/kimai/blob/master/core/soap.php), by adding the parameter wsdl /core/soap.php?wsdl you can get the definition for the service that you can consume using a soap client
+- JSON (based on json-rpc 2.0): available at [/core/json.php]({{ site.kimai_v1_repo }}/blob/master/core/json.php), by requesting the page without passing parameter you will get the full list of available methods
+- SOAP: available at [/core/soap.php]({{ site.kimai_v1_repo }}/blob/master/core/soap.php), by adding the parameter wsdl /core/soap.php?wsdl you can get the definition for the service that you can consume using a soap client
 
 For more details about how the services works:
 
 - [JSON at Zend Framework 1.12](https://framework.zend.com/manual/1.12/en/zend.json.server.html)
 - [SOAP at Zend Framework 1.12](https://framework.zend.com/manual/1.12/en/zend.soap.server.html)
 
-Beside the interfaces for the API, you can find the base file for api at [/libraries/Kimai/Remote/Api.php](https://github.com/kimai/kimai/blob/master/libraries/Kimai/Remote/Api.php), that's where all API methods are defined.
+Beside the interfaces for the API, you can find the base file for api at [/libraries/Kimai/Remote/Api.php]({{ site.kimai_v1_repo }}/blob/master/libraries/Kimai/Remote/Api.php), that's where all API methods are defined.
 Please refer to that file, to find out abut all methods and required parameters!
 
 ## API Methods 

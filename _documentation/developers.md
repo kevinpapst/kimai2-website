@@ -1,6 +1,6 @@
 ---
 title: Developers
-description: Developer documentation for Kimai
+description: Developer documentation - run, develop, extend and build for Kimai 
 toc: true
 ---
 

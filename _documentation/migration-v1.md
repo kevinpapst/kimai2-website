@@ -1,5 +1,6 @@
 ---
 title: Upgrade to Kimai 2 from v1
+description: Install Kimai 2 and import your existing timesheet data from Kimai 1
 redirect_from:
   - /v1/upgrade-v2.html
   - /documentation/upgrade-kimai-v1.html

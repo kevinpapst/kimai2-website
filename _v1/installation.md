@@ -106,21 +106,21 @@ Uncompress the zip file on the Document root of your web-server:
 cd /var/www/
 mkdir kimai
 cd kimai
-wget https://github.com/kimai/kimai/releases/download/1.2.2/kimai_1.2.2.zip
+wget {{ site.kimai_v1_repo }}/releases/download/1.2.2/kimai_1.2.2.zip
 unzip kimai_1.2.2.zip
 ```
-Replace 1.2.2 with the latest available [release TAG](https://github.com/kimai/kimai/releases)
+Replace 1.2.2 with the latest available [release TAG]({{ site.kimai_v1_repo }}/releases)
 
 
 Important: If you use GIT to fetch the sources, use the following command:
 
 ```bash
 cd /var/www/
-git clone https://github.com/kimai/kimai.git
+git clone {{ site.kimai_v1_repo }}.git
 git fetch
 git checkout 1.2.2
 ```
-Replace 1.2.2 with the latest available [release TAG](https://github.com/kimai/kimai/releases)
+Replace 1.2.2 with the latest available [release TAG]({{ site.kimai_v1_repo }}/releases)
 
 ### No SSH possible (not recommended)
 

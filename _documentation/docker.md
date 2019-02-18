@@ -87,6 +87,6 @@ The [official docker documentation](https://docs.docker.com/) has more options o
 As there are several approaches to docker images, you have multiple docker images to choose from. 
 They were built by the community, we do not support them - for question please ask in their repositories:
 
-- [dysonspherelab](https://hub.docker.com/r/dysonsphere/kimai2/) (for more infos [read this issue](https://github.com/kevinpapst/kimai2/issues/284))
+- [dysonspherelab](https://hub.docker.com/r/dysonsphere/kimai2/) (for more infos [read this issue]({{ site.kimai_v2_repo }}/issues/284))
 - [felixhummel](https://github.com/felixhummel/kimai-in-docker/tree/kimai2)
-- [Haidy777](https://github.com/Haidy777/kimai2/blob/docker/Dockerfile) (for more infos [read this issue](https://github.com/kevinpapst/kimai2/pull/311))
+- [Haidy777](https://github.com/Haidy777/kimai2/blob/docker/Dockerfile) (for more infos [read this issue]({{ site.kimai_v2_repo }}/pull/311))

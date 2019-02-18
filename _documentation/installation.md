@@ -65,7 +65,7 @@ Create your first user with the following command. You will be asked to enter a 
 ```bash
 bin/console kimai:create-user username admin@example.com ROLE_SUPER_ADMIN
 ```
-_Tip: You can skip the "create user" step, if you are going to [import data from Kimai v1]({% link _documentation/migration_v1.md %})._
+_Tip: You can skip the "create user" step, if you are going to [import data from Kimai v1]({% link _documentation/migration-v1.md %})._
 
 For available roles, please refer to the [user documentation]({% link _documentation/users.md %}).
 
@@ -93,7 +93,7 @@ Kimai 2 [package](https://github.com/YunoHost-Apps/kimai2_ynh) for [YunoHost](ht
 If you have no SSH access to your server (e.g. when you use a shared hosting package) then you need to install Kimai locally and upload it afterwards.
 
 Before I start to explain how to apply this workaround let me briefly explain the problem:
-Kimai has no [web-based installer](https://github.com/kevinpapst/kimai2/issues/209) for now and you have to create the database tables with a console command.
+Kimai has no [web-based installer]({{ site.kimai_v2_repo }}/issues/209) for now and you have to create the database tables with a console command.
 It also does not come as pre-built ZIP file, so you have to install the dependencies manually.
 
 These are the steps you have to perform:
