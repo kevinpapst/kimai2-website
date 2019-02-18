@@ -18,6 +18,9 @@ collections:
     permalink: /:collection/:name.html
   pages:
     output: true
+    permalink: /:name/
+  error:
+    output: true
     permalink: /:name.html
 
 defaults:
@@ -33,6 +36,11 @@ defaults:
       type: pages
     values:
       layout: page
+  - scope:
+      path: ""
+      type: error
+    values:
+      layout: error
   - scope:
       path: ""
       type: v1

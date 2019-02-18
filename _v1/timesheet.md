@@ -2,7 +2,8 @@
 title: Timesheet
 description: Documentation for Kimai Time-Tracking
 redirect_from: 
-- /documentation/manual/timesheet.html
+  - /documentation/manual/timesheet.html
+  - /documentation/timesheet/
 ---
 
 Thats where you track your time. We hope the interface is easy to understand and use.

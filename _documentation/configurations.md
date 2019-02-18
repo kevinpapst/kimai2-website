@@ -1,6 +1,6 @@
 ---
 title: Configurations
-description: xxx
+description: Kimai configurations files and basic setup
 toc: true
 ---
 

@@ -3,6 +3,7 @@ title: Translations
 description: Documentation for Kimai Time-Tracking
 redirect_from:
   - /documentation/developer/translations.html
+  - /documentation/translations/
 ---
 
 Kimai is continually evolving so translations get outdated pretty fast. Therefore we're always happy, if people invest their time into improving the translations. Translations to new languages are very welcome as well!

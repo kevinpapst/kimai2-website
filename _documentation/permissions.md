@@ -1,11 +1,10 @@
 ---
 title: Permissions
-description: xxx
 toc: true
 ---
 
 Kimai 2 provides a flexible permissions system, which is based on [user roles]({% link _documentation/users.md %}) and 
-can be adapted though your [local.yaml]({% link _documentation/configurations.md %}) config file.
+can be adapted through your [local.yaml]({% link _documentation/configurations.md %}) config file.
 
 ## Understanding permission structure
 

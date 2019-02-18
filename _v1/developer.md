@@ -4,6 +4,8 @@ description: Developer docs for Kimai 1
 redirect_from:
   - /documentation/developer/documentation.html
   - /documentation/developer/introduction.html
+  - /documentation/developer/index.html
+  - /documentation/developer/
 ---
 
 This document gives an overview of how Kimai works. It is intended for developers (core and extensions).
@@ -72,7 +74,7 @@ The processor.php file handles AJAX calls and floater.php creates those dragable
 From time to time we will release ZIP archives. These are most often beta versions, to be tested by our user base for problems and bugs. 
 Production ready releases will be linked specifically in the download section at our website.
 
-You can download the current developer-version as ZIP from our [master branch at GitHub]({{ site.kimai_v1_repo }}/archive/master.zip).
+You can download the current developer-version as ZIP from our [master branch at GitHub]({{ site.kimai_v1_repo }}/archive/master.zip).
 
 ## Install from the repository
 

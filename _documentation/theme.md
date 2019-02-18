@@ -1,6 +1,6 @@
 ---
 title: Theme
-description: xxx
+description: Theme related configuration and developer documentation for Kimai
 toc: true
 ---
 

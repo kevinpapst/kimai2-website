@@ -1,6 +1,6 @@
 ---
 title: Calendar
-description: xxx
+description: Show your timesheet records in a calendar
 toc: true
 ---
 

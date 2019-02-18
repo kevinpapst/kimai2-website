@@ -1,13 +1,12 @@
 ---
 title: Upgrade to Kimai 2 from v1
-description: xxx
 redirect_from:
   - /v1/upgrade-v2.html
   - /documentation/upgrade-kimai-v1.html
 toc: true
 ---
 
-This document covers the necessary steps to migrate from Kimai 1 to Kimai 2.
+This documentation covers all necessary steps to migrate from Kimai 1 to Kimai 2.
 
 ## Introduction
 

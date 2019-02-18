@@ -1,6 +1,6 @@
 ---
 title: FAQ
-description: xxx
+description: Frequently asked questions for Kimai
 toc: true
 ---
 

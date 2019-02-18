@@ -1,6 +1,5 @@
 ---
 title: "Team & Internal"
-description: xxx
 ---
 
 Documentation for project maintainer.

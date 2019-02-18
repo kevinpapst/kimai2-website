@@ -1,6 +1,8 @@
 ---
 title: Kimai Remote Api
 description: Documentation for Kimai Time-Tracking
+redirect_from:
+  - /documentation/api/
 ---
 
 This part of the documentation is dedicated for developers who want to make 3rd party applications that use Kimai as a backend. 

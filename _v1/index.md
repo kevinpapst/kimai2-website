@@ -42,7 +42,7 @@ Please see the [Update documentation]({% link _v1/updates.md %}) for more inform
 
 ## Donations
 
-Kimai 1 is not maintained any longer by @kevinpapst. Simon tried to keep it alive, so all donations for v1 belong to:
+Kimai 1 is not maintained any longer by @kevinpapst. But Simon is still trying to keep it alive:
 
 {% include card-donate.html user="simonschaufi" %}
 

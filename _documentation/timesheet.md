@@ -1,6 +1,6 @@
 ---
 title: Timesheet
-description: xxx
+description: The timesheet is your central point of truth for your time-tracking data in Kimai
 toc: true
 ---
 

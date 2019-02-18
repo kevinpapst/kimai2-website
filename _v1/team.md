@@ -1,6 +1,8 @@
 ---
 title: "Team / Internal"
 description: Documentation for Kimai Time-Tracking
+redirect_from: 
+  - /documentation/team/
 ---
 
 This part of the documentation is related to the Kimai development team, you can safely skip this part 

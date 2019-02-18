@@ -1,7 +1,6 @@
 ---
 title: Demo
 description: Test and evaluate our time-tracker Kimai online, directly from our demo page.
-permalink: /demo/
 redirect_from:
   - /en/demo.html
   - /demo.html

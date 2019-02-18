@@ -1,6 +1,6 @@
 ---
 title: Docker
-description: xxx
+description: Running Kimai inside docker
 toc: true
 ---
 

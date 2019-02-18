@@ -2,7 +2,6 @@
 layout: page
 title: Download
 description: Download - Kimai Time-Tracking versions
-permalink: /download/
 redirect_from:
   - /en/download.html
   - /download.html
@@ -20,7 +19,7 @@ Server requirements for Kimai are:
 
 If you are unsure, you can test your servers compatibility with the [Symfony requirements-checker](http://symfony.com/doc/current/reference/requirements.html).
 
-<a href="{{ site.kimai_v2_repo }}{{ site.kimai_v2_repo }}/releases" class="btn btn-primary"><i class="fas fa-download"></i> Latest stable</a>
+<a href="{{ site.kimai_v2_repo }}/releases" class="btn btn-primary"><i class="fas fa-download"></i> Latest stable</a>
 <a href="{{ site.kimai_v2_repo }}/zipball/master" class="btn btn-secondary"><i class="fas fa-download"></i> Development</a>
 
 ## Installation

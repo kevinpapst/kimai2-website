@@ -1,6 +1,6 @@
 ---
 title: Customer
-description: xxx
+description: Customers in Kimai
 ---
 
 Customers in Kimai are used to manage project and activities, which are then used for time-records.

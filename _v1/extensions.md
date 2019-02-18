@@ -1,6 +1,8 @@
 ---
 title: Extensions
 description: Extensions for Kimai 1
+redirect_from: 
+  - /documentation/extensions/
 ---
 
 For example the timesheet, export and expenses screen (which you get by clicking the corresponding tab) is called an extension. 

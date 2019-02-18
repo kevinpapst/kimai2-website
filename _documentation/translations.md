@@ -1,7 +1,12 @@
 ---
 title: Translations
-description: xxx
+description: i18n in Kimai, language specific configurations and the translation files.
 ---
+
+Languages and translations in Kimai are completely configurable. 
+Read below how to add a new language and configure the output formats for date and time values.  
+
+## Language files
 
 We try to keep the number of language files small, in order to make it easier to identify the location of application messages and to unify the codebase.
 
@@ -35,9 +40,15 @@ Adjust the file `config/packages/kimai.yaml` and add the language settings below
 ```yaml
 kimai:
     languages:
+        # copy all settings from 'en' and adjust them to your language
         xx:
-            date: 'd.m.Y'
-            # there are more settings, copy them from 'en'
+            date_time_type: 'yyyy-MM-dd HH:mm'
+            date_time_picker: 'YYYY-MM-DD HH:mm'
+            date_type: 'yyyy-MM-dd'
+            date_picker: 'YYYY-MM-DD'
+            date: 'Y-m-d'
+            date_time: 'm-d H:i'
+            duration: '%%h:%%m h'
 ```
 
 Append the new locale in the file `config/services.yaml` at `parameters.app_locales` divided by a pipe:
@@ -47,6 +58,14 @@ parameters:
     locale: en
     app_locales: en|de|ru|it|xx
 ```
+
+### Date and time formats
+
+Kimai uses the configurations in `kimai.yaml` to format the values in the frontend. 
+It also uses the configurations to convert between javascript components (e.g. the date-picker) and the PHP backend,
+so they must create the same output. 
+
+The settings ending with `_type` are the ones used in PHP where the ones ending with `_picker` are used in javascript.
 
 ## Check for missing translations
 

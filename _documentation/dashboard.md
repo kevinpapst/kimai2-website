@@ -1,6 +1,6 @@
 ---
 title: Dashboard
-description: xxx
+description: Dashboard widgets and statistic information
 toc: true
 ---
 

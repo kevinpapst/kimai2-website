@@ -1,6 +1,8 @@
 ---
 title: Export
 description: Export docs for Kimai 1
+redirect_from:
+  - /documentation/export/
 ---
 
 With this extension you can export tracked time per User into an Excel-file, csv-file or a pdf-file. 

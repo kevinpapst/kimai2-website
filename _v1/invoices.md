@@ -1,6 +1,8 @@
 ---
 title: Invoices
 description: Documentation for Kimai Time-Tracking
+redirect_from:
+  - /documentation/invoices/
 ---
 
 Create invoices for your clients. Use can choose between several templates.

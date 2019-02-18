@@ -2,7 +2,8 @@
 title: Invoice templates
 description: Invoice templates variables for Kimai 1
 redirect_from: 
-- /documentation/developer/invoice-templates.html
+  - /documentation/developer/invoice-templates.html
+  - /documentation/invoice-templates/
 ---
 
 Creating templates for the invoice extension is actually pretty easy.

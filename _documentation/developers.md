@@ -1,6 +1,6 @@
 ---
 title: Developers
-description: xxx
+description: Developer documentation for Kimai
 toc: true
 ---
 

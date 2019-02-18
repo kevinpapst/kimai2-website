@@ -1,6 +1,6 @@
 ---
 title: Emails
-description: xxx
+description: Configure email transport for Kimai
 toc: true
 ---
 

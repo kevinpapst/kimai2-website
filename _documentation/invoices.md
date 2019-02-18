@@ -1,6 +1,6 @@
 ---
 title: Invoices
-description: xxx
+description: Create invoices for your customer directly in Kimai from timesheet data and output it in several formats 
 toc: true
 ---
 

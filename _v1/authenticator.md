@@ -2,7 +2,8 @@
 title: Authenticator
 description: Authenticator docs for Kimai 1
 redirect_from: 
-- /documentation/administrator/authenticator.html
+  - /documentation/administrator/authenticator.html
+  - /documentation/authenticator/
 ---
 
 By default kimai uses its internal user management, where users and passwords are stored in the Kimai database.

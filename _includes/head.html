@@ -14,7 +14,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/icon/icon_16x16.png' | absolute_url }}">
 <link rel="shortcut icon" href="{{ '/assets/icon/favicon.ico' | absolute_url }}">
 <title>{{ page.title }}</title>
-<meta name="description" content="{{ page.description }}">
+<meta name="description" content="{{ page.description | default: page.excerpt | strip_html | strip_newlines | strip }}">
 <link href="{{ '/assets/css/bundle.css' | absolute_url }}" rel="stylesheet" />
 <script src="{{ '/assets/js/jquery-3.2.1.min.js' | absolute_url }}"></script>
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | absolute_url }}"></script>

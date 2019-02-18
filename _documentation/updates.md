@@ -1,6 +1,6 @@
 ---
 title: Updates
-description: xxx
+description: How to update Kimai 2 to the next release version
 ---
 
 1. It is important that you don't execute the [installation steps]({% link _documentation/installation.md %}) before or after your update

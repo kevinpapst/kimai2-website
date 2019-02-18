@@ -1,6 +1,6 @@
 ---
 title: Rest API
-description: xxx
+description: Access your time-tracking data via the REST API with Kimai
 toc: true
 ---
 

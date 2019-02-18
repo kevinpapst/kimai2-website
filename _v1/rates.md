@@ -2,10 +2,11 @@
 title: Rates & Fees
 description: Documentation for Kimai Time-Tracking
 redirect_from:
-- /manual/rates.html
-- /manual/manual/rates.html
-- /documentation/manual/rates.html
-- /documentation/fees/
+  - /manual/rates.html
+  - /manual/manual/rates.html
+  - /documentation/manual/rates.html
+  - /documentation/fees/
+  - /documentation/rates/
 ---
 
 Here is the order in which is checked if a rate exists. The first one found is then used:
