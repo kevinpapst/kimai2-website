@@ -3,6 +3,7 @@ title: Site notice
 description: Site notice for www.kimai.org
 redirect_from: 
 - /impressum.html
+robots: "noindex, nofollow"
 ---
 {% include core/impressum-en.md %}
 

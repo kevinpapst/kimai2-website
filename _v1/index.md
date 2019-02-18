@@ -4,8 +4,6 @@ description: Kimai v1 resources - upgrade infos, documentation and links
 subtitle: "Oldie but goldie!"
 header: Kimai v1
 permalink: /v1/
-redirect_from:
-  - faq.html
 sitemap:
     priority: 0.7
     lastmod: 2018-02-10

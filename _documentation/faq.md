@@ -2,6 +2,8 @@
 title: FAQ
 description: Frequently asked questions for Kimai
 toc: true
+redirect_from:
+  - faq.html
 ---
 
 ## I have a problem
