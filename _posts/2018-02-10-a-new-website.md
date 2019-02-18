@@ -4,7 +4,6 @@ title:  "A new website for Kimai"
 date:   2018-02-10
 author: kevinpapst
 ---
-With the current day, I launched a "massively fresh design" for our website at www.kimai.org.
 
 When I started to work on the next major release Kimai v2 a couple of weeks ago, I had the urge to start that new era with a fresh website for Kimai. 
 And one major point was the presentation of Kimai on its public page - I also want to show everyone, that the project is still alive and actively developed.
@@ -19,7 +18,7 @@ Not everyone will like it (as it is always with relaunches) and the new website 
 
 So say goodbye to:
 
-![Old website desig](/images/old-website.jpg){:class="image fit"}
+![Old website design]({% link /images/news/old-website.jpg %}){:class="image"}
 
 And the next posts will be more about Kimai v2 and less about us ;-)
 

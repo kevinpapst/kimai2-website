@@ -7,4 +7,4 @@ author: skilleven
 
 ... was developed by Severin Leonhardt and can be found in this forum thread:
 
-[{{ site.forum_url }}index.php?topic=311.0]({{ site.forum_url }}index.php?topic=311.0)
+{% include alert.html alert="The forum is not alive any longer, but the extension was added to the Kimai core" %}

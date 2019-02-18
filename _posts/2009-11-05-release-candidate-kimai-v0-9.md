@@ -15,4 +15,4 @@ He contributed a big amount of his free time, added great code, new features and
 If you want to help us and test the software, you can find it at the [Kimai Sourceforge Page](https://sourceforge.net/projects/kimai/) or
 [download it directly](http://sourceforge.net/projects/kimai/files/kimai_0.9.0.1074.zip/download).
 
-Feedback about this version can be posted in the [Beta test forum]({{ site.forum_url }}index.php?board=21.0).
+Feedback about this version can be posted in the [Beta test forum]({{ site.kimai_v1_repo }}/issues).

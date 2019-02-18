@@ -8,5 +8,5 @@ author: skilleven
 ...but Martin Klemkow named it "Simplestats". This extension is really nice!
 We like it so much that we will ship it as part of the next package.
 
-Until then you can load the extension via [this forum link]({{ site.forum_url }}viewtopic.php?t=147).
+Until then you can load the extension via [this forum link]({{ site.kimai_v1_repo }}/issues).
 Thanks to Martin!

@@ -9,4 +9,4 @@ The first extension is available for Kimai.
 Alexander Schroll today announced his 'stats' extension, which generates detailed reports and timelines.
 Very helpful tool - thank you, Alexander!
 
-[Download 'stats' extension]({{ site.forum_url }}viewtopic.php?t=143)
+[Download 'stats' extension]({{ site.kimai_v1_repo }}/issues)

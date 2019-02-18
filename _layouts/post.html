@@ -1,53 +1,54 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-    {% include head.html %}
-	</head>
-	<body class="is-loading">
+---
+layout: default
+menu: docs
+---
+{% assign author = site.data.users[page.author] %}
+{% assign titleOptions = page.options | default: '' %}
 
-		<div id="wrapper" class="fade-in">
+<div class="container">
+	{% include page-title.html title=page.title subtitle=page.subtitle options=titleOptions %}
 
-			{% include header-link.html %}
-
-			<nav id="nav">
-				{% include nav.html %}
-				<ul class="icons">
-					{% include social.html %}
-				</ul>
-			</nav>
-
-			<div id="main">
-				<section class="post">
-					<header class="major">
-						<span class="date">
-							{{page.date | date_to_string}}
-							{% if page.author_git %}
-								@<a href="https://github.com/{{ page.author_git }}" class="post-author">{{ page.author }}</a>
-							{% else %}
-								@<a href="https://github.com/{{ page.author }}" class="post-author">{{ page.author }}</a>
-							{% endif %}
-						</span>
-						<h1>{{page.title}}</h1>
-						{{page.excerpt}}
-					</header>
-					<div class="image main"><img src="{{page.image}}" alt=""></div>
-					<div>
-						{% if page.excerpt != nil %}
-							{{ content | remove_first:page.excerpt }}
-						{% else %}
-							{{ content }}
-						{% endif %}
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="card">
+				<div class="card-header">
+					<div class="d-flex align-items-center px-2">
+						<div class="avatar avatar-md mr-3" style="background-image: url({{ author.photo }})"></div>
+						<div>
+							<div>{{ author.name }} <small>@{{ author.username }}</small></div>
+							<small class="d-block text-muted">{{ page.date | date_to_string }}</small>
+						</div>
 					</div>
-				</section>
+					<div class="card-options">
+						<a href="{% link _pages/donate.md %}" class="btn btn-option" data-toggle="tooltip" title="Donate">
+							<i class="fas fa-heart"></i>
+						</a>
+						<a href="/feed.xml" class="btn btn-option"><i class="fa fa-rss"></i></a>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="text-wrap p-lg-6">
 
-				{% include bottom-links.html %}
+						{% if page.toc %}
+						{{ content | toc_only }}
+						{% endif %}
+
+						{{ content | toc_generate }}
+					</div>
+				</div>
+				<div class="card-footer">
+					{% if page.previous.url %}
+						<div class="d-flex align-items-center px-2">
+							<a class="btn btn-link" href="{{page.previous.url}}"><i class="fas fa-arrow-circle-left"></i> {{page.previous.title}}</a>
+						</div>
+					{% endif %}
+					{% if page.next.url %}
+						<div class="card-options">
+							<a class="btn btn-link" href="{{page.next.url}}">{{page.next.title}} <i class="fas fa-arrow-circle-right"></i></a>
+						</div>
+					{% endif %}
+				</div>
 			</div>
-
-			{% include footer.html %}
-
 		</div>
-
-  		{% include scripts-main.html %}
-		{% include tracking.html %}
-	</body>
-</html>
+	</div>
+</div>
