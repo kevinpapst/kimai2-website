@@ -86,5 +86,5 @@ The full list can be found in this [TwigExtension]({{ site.kimai_v2_file }}/src/
 Icon aliases can be used by applying the `icon` filter, e.g.
 
 ```
-<i class="{{ 'money'|icon }}"></i>
+{% raw %}<i class="{{ 'money'|icon }}"></i>{% endraw %}
 ```
